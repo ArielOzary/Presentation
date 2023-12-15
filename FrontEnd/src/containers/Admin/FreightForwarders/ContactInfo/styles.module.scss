@@ -1,0 +1,33 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.wrapper {
+  form {
+    span {
+      color: $gray2Color;
+    }
+  }
+
+  .btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+}
+
+.editToggleBtn {
+  position: absolute;
+  top: 1rem;
+  right: 1.6rem;
+  font-size: 1.375rem !important;
+  color: $primaryColor;
+  padding: 0.25rem !important;
+
+  @include onRTL {
+    right: initial;
+    left: 1.6rem;
+  }
+}
+

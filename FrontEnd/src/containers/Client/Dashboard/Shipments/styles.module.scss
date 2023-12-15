@@ -1,0 +1,21 @@
+@import '@assets/styles/mixins';
+
+.list {
+  margin-bottom: 1rem;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  border-block-end: 0 !important;
+  padding-top: 0.625rem !important;
+  padding-bottom: 0 !important;
+}
+
+.pagination {
+  text-align: end;
+
+  @include onRTL {
+    text-align: start;
+  }
+}

@@ -1,0 +1,18 @@
+@import '@assets/styles/palette';
+
+.openAllBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.mainText {
+  color: $gray2Color;
+  padding: 55px 0 19px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.collapse {
+  background-color: white;
+}

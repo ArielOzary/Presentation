@@ -1,0 +1,42 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.container {
+  min-width: 34.5rem;
+  display: flex;
+  flex-direction: column;
+
+  @include breakpoint('md') {
+    min-width: initial;
+  }
+
+  .textHeader {
+    font-size: 1.125rem;
+    color: $gray2Color;
+    margin-bottom: 0.875rem;
+  }
+
+  .textBody {
+    font-size: 0.875rem;
+    color: $gray2Color;
+    // padding-top: 0.875rem;
+    padding-bottom: 0.625rem;
+    font-weight: 700;
+  }
+
+  .box {
+    display: flex;
+    justify-content: space-between;
+    .block {
+      flex: 0 1 45%;
+    }
+  }
+}
+
+.radioGroup {
+  width: 100%;
+
+  > div {
+    display: flex;
+  }
+}

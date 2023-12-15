@@ -1,0 +1,8 @@
+@import '@assets/styles/palette';
+
+.avatar {
+  cursor: pointer;
+  background: rgba($primaryColor, 0.1);
+  border: 1px solid $primaryColor;
+  color: $primaryColor;
+}

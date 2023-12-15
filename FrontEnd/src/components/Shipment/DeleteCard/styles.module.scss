@@ -1,0 +1,14 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.popoverWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -0.625rem;
+
+  .icon {
+    display: flex;
+    font-size: 1.625rem;
+    color: #d9d9d9;
+  }
+}

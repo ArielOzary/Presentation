@@ -1,0 +1,81 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.title {
+  @include textStyle(400, 1.6rem, 3rem);
+  text-align: center;
+  color: #000;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: start !important;
+
+  border-block-end: 0 !important;
+  padding-top: 0.625rem !important;
+  padding-bottom: 2rem !important;
+
+  .remarks {
+    font-size: 1rem;
+    color: #000;
+    width: 100%;
+    margin-top: 0.5rem;
+
+    .text {
+      font-size: 0.875rem;
+      color: $gray3Color;
+    }
+  }
+}
+
+.btn {
+  display: flex;
+  font-size: 14px;
+  font-weight: 700;
+  margin: auto;
+  margin-top: 1rem;
+  color: #f2f2f2;
+}
+
+.pagination {
+  text-align: end;
+
+  @include onRTL {
+    text-align: start;
+  }
+}
+
+.file {
+  display: flex;
+  align-items: center;
+  padding: 0.56rem 0.5rem;
+  height: fit-content;
+  margin-top: 0.5rem;
+  color: $primaryColor;
+  border-radius: 2px;
+  border: 1px solid $gray5Color;
+
+  .fileName {
+    display: block;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  &.editable {
+    justify-content: space-between;
+
+    > div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      width: 100%;
+    }
+  }
+}
+.wpIcon {
+  display: flex;
+}

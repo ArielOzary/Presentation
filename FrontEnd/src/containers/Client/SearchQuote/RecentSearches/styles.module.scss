@@ -1,0 +1,18 @@
+@import '@assets/styles/palette';
+
+.wrapper {
+  min-height: 30rem;
+}
+.title {
+  font-size: 1.125rem;
+  display: block;
+  margin-bottom: 0.625rem;
+  color: $gray3Color;
+}
+
+.emptyWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 25rem;
+}

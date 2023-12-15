@@ -1,0 +1,72 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.wrapper {
+  padding-bottom: 2rem;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+
+    .title {
+      @include textStyle(_, 2rem, 2.31rem);
+
+      color: $gray3Color;
+    }
+
+    @include breakpoint('sm') {
+      flex-direction: column;
+    }
+  }
+
+  .columns {
+    display: flex;
+    gap: 2rem;
+
+    @include breakpoint('xl') {
+      flex-wrap: wrap;
+    }
+    @include breakpoint('md') {
+      gap: 1.5rem;
+    }
+    @include breakpoint('sm') {
+      gap: 1rem;
+    }
+    @include breakpoint('xs') {
+      gap: 0.5rem;
+    }
+
+    .sideBar {
+      flex: 40%;
+      display: flex;
+      position: sticky;
+      top: 2rem;
+      align-self: flex-start;
+      bottom: 5rem;
+      height: calc(100vh - 7rem);
+
+      @include breakpoint('xl') {
+        flex: auto;
+        width: 100%;
+        position: relative;
+        height: 19rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    .main {
+      flex: 60%;
+
+      @include breakpoint('xl') {
+        flex: auto;
+        width: 100%;
+        margin-top: 1.5rem;
+      }
+    }
+  }
+
+  .selectAdmin {
+    margin: 20vh auto;
+  }
+}

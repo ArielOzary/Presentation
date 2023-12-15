@@ -1,0 +1,84 @@
+@import '@assets/styles/palette';
+
+.uploadBlock {
+  padding: 0 1.5rem;
+
+  &.margin {
+    margin-top: 3.75rem;
+  }
+
+  .uploadBtn {
+    width: 9.31rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.title {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  color: $gray2Color;
+}
+
+.fileList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.file {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.56rem 0.5rem;
+  height: fit-content;
+  color: $primaryColor;
+  border-radius: 2px;
+  border: 1px solid $gray5Color;
+  background: none;
+
+  .fileName {
+    display: block;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  &.editable {
+    justify-content: space-between;
+
+    > div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+      width: 100%;
+    }
+  }
+}
+
+.wpIcon {
+  display: flex;
+}
+
+.wrapperDeleteIcon {
+  display: flex;
+  justify-content: flex-end;
+  min-width: 14px;
+}
+
+.divider {
+  height: 1px;
+  background-color: #eeeef2;
+  border-block-start: none;
+}
+
+.otherFiles {
+  padding: 0 1.5rem;
+  margin-top: 0.5rem;
+}

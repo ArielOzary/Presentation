@@ -1,0 +1,27 @@
+@import '@assets/styles/palette';
+
+.active {
+  color: $primaryColor !important;
+  font-weight: 700 !important;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+
+  .info {
+    display: flex;
+    flex-direction: column;
+
+    .name {
+      font-size: 1rem;
+    }
+
+    .email {
+      color: $gray3Color;
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "basicInfo": {
+    "air": "Air?",
+    "companyNameEnglish": "Company Name (English)",
+    "customs": "Customs?",
+    "email": "Email",
+    "faxNumber": "Fax Number",
+    "generalPhone": "General Phone",
+    "ocean": "Ocean?",
+    "payment": "Payment?",
+    "title": "Basic Info",
+    "vatNumber": "VAT Number"
+  },
+  "companyInfo": {
+    "companyNameEnglish": "Company Name (English)",
+    "companyNameHebrew": "Company Name (Hebrew)",
+    "confirmPassword": "Confirm Password",
+    "industry": "Industry",
+    "legalNumber": "Legal Number",
+    "title": "Company Info"
+  },
+  "companyLocation": {
+    "apartment": "Apartment",
+    "comments": "Comments",
+    "customClearanceByAutolog": "Custom Clearance by autolog?",
+    "inLandAddress": "In Land Address",
+    "inlandMadeByAutolog": "Inland made by Autolog?",
+    "insurance": "Insurance?",
+    "mailingAddress": "Mailing Address",
+    "portOfDestination": "Port of destination?",
+    "postalCode": "Postal Code",
+    "readAndAgreed": "I have read and agreed to the",
+    "termsAndConditions": "terms and conditions",
+    "title": "Company Location",
+    "whoIsInChargeOfInLand": "Who is in charge of in land?"
+  },
+  "contactInfo": {
+    "contactEmail": "Contact Email",
+    "contactName": "Contact Name",
+    "jobTitle": "Job Title",
+    "phoneNumber": "Phone Number",
+    "title": "Contact Info"
+  },
+  "contactsInfoForwarder": {
+    "airRep": "Air Rep",
+    "customsRep": "Customs Rep",
+    "oceanRep": "Ocean Rep",
+    "paymentRep": "Payment Rep",
+    "titleInfo": "Contacts Info"
+  },
+  "createYourFreeAccount": "Create Your Free Account",
+  "errors": {
+    "basicInfo": {
+      "emailInvalid": "Contact Email should conform to the email format (xxxxx@xxxx.xx)",
+      "faxInvalid": "Only numbers are allowed",
+      "generalNumberInvalid": "Only numbers are allowed",
+      "nameEnInvalid": "Company Name should contain only English letters, hyphens and spaces",
+      "vatNumberInvalid": "Only numbers are allowed"
+    },
+    "companyInfo": {
+      "emailInvalid": "Email should conform to the email format (xxxxx@xxxx.xx)",
+      "legalNumberInvalid": "Legal Number should contain only numbers",
+      "nameEnInvalid": "Company Name should contain only English letters, hyphens and spaces",
+      "nameHeInvalid": "Company Name should contain only Hebrew letters, hyphens and spaces",
+      "passwordInvalid": "Password should contain 6-12 symbols and include at least one uppercase letter, one lowercase letter and one symbol",
+      "passwordsDoNotMatch": "Passwords don`t match"
+    },
+    "companyLocation": {"onlyNumbers": "Only numbers"},
+    "contactInfo": {
+      "contactNameInvalid": "Contact Name should contain only letters, spaces, hyphens",
+      "emailInvalid": "Contact Email should conform to the email format (xxxxx@xxxx.xx)",
+      "phoneInvalid": "Phone Number should conform to international format (+x-xxx-xxx-xxxx)",
+      "positionInvalid": "Job Title should contain only letters, numbers, hyphens and spaces",
+      "positionMaxLen": "Job Title should be less than 100 symbols"
+    },
+    "contactsInfoForwarder": {
+      "contactNameInvalid": "Contact Name",
+      "emailInvalid": "Contact Email should conform to the email format (xxxxx@xxxx.xx)",
+      "phoneInvalid": "Phone Number should conform to international format (+x-xxx-xxx-xxxx)"
+    }
+  },
+  "step": "Step",
+  "tellUsAboutYourCompany": "Tell us about your company"
+}

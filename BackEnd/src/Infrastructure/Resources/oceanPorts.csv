@@ -1,0 +1,51 @@
+﻿Country;Name;Province;Id
+China;Port of Shanghai;;5000
+China;Port of Singapore;;5001
+China;Port of Shenzhen;;5002
+China;Port of Ningbo-Zhoushan;;5003
+China;Port of Guangzhou;;5004
+South Korea;Port of Busan;;5005
+China;Port of Hong Kong;;5006
+China;Port of Qingdao;;5007
+China;Port of Tianjin;;5008
+Netherlands;Port of Rotterdam;;5009
+Belgium;Port of Antwerp;;5010
+Germany;Port of Hamburg;;5011
+Germany;Port of Bremerhaven;;5012
+United Arab Emirates;Port of Jebel Ali;;5013
+Oman;Port of Salalah;;5014
+Spain;Port of Algeciras;;5015
+Spain;Port of Valencia;;5016
+Greece;Port of Piraeus;;5017
+USA;Port of Los Angeles;;5018
+USA;Port of Long Beach;;5019
+USA;Port of New York and New Jersey;;5020
+USA;Port of Savannah;;5021
+USA;Port of Houston;;5022
+Canada;Port of Vancouver;;5023
+Canada;Port of Montreal;;5024
+Australia;Port of Sydney;;5025
+Australia;Port of Melbourne;;5026
+Australia;Port of Brisbane;;5027
+South Africa;Port of Durban;;5028
+Kenya;Port of Mombasa;;5029
+Netherlands;Port of Rotterdam;;5030
+United Kingdom;Port of Felixstowe;;5031
+France;Port of Le Havre;;5032
+Italy;Port of Genoa;;5033
+Greece;Port of Piraeus;;5034
+Turkey;Port of Istanbul;;5035
+Egypt;Port of Alexandria;;5036
+Morocco;Port of Casablanca;;5037
+Nigeria;Port of Lagos;;5038
+South Africa;Port of Cape Town;;5039
+Argentina;Port of Buenos Aires;;5040
+Brazil;Port of Santos;;5041
+Peru;Port of Callao;;5042
+Chile;Port of Valparaiso;;5043
+Canada;Port of Vancouver;;5044
+Canada;Port of Prince Rupert;;5045
+Colombia;Port of Cartagena;;5046
+Panama;Port of Colón;;5047
+Mexico;Port of Manzanillo;;5048
+Mexico;Port of Altamira;;5049

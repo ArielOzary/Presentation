@@ -1,0 +1,156 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.packageRow {
+  display: flex;
+  flex-direction: row;
+  gap: 1.81rem;
+
+  @include breakpoint('md') {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  > div:first-child {
+    width: calc(80% - 1.81rem);
+
+    @include breakpoint('md') {
+      width: 100%;
+    }
+
+    .radioBtnBlock {
+      width: 100%;
+      display: flex;
+
+      .radioBtn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+
+        :global {
+          .ant-radio-button-checked {
+            background: rgba($primaryColor, 0.1);
+          }
+        }
+      }
+    }
+  }
+
+  > div:last-child {
+    width: 20%;
+
+    @include breakpoint('md') {
+      width: 60%;
+    }
+
+    .inputNumber {
+      width: 100%;
+      border-radius: 5px;
+
+      > div:first-child {
+        border-start-end-radius: 5px;
+        border-end-end-radius: 5px;
+      }
+
+      input {
+        height: 2.44rem;
+      }
+    }
+  }
+}
+.parametersRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.92rem;
+
+  @include breakpoint('md') {
+    gap: 0;
+  }
+
+  .space {
+    width: calc(70% - 2.92rem);
+
+    @include breakpoint('md') {
+      width: 100%;
+    }
+
+    .block {
+      width: 28%;
+
+      .input {
+        height: 100%;
+        width: 100%;
+
+        input {
+          height: 2.44rem;
+        }
+      }
+    }
+
+    .compact {
+      position: relative;
+
+      .errorText {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+    }
+  }
+  .select {
+    // height: 2.44rem;
+
+    > div:first-of-type {
+      display: flex;
+      align-items: center;
+      height: 2.44rem;
+      background-color: #f2f2f2;
+      border-end-end-radius: 5px;
+      border-start-end-radius: 5px;
+
+      input {
+        height: 2.44rem;
+      }
+    }
+  }
+  .label {
+    @include textStyle(400, 0.875rem, 1.57rem);
+    display: block;
+    color: $gray4Color;
+    padding-bottom: 0.5rem;
+
+    .bold {
+      font-weight: 700;
+      color: $grayColor;
+    }
+  }
+  .space:last-of-type {
+    width: 30%;
+
+    @include breakpoint('md') {
+      width: 100%;
+    }
+
+    .block {
+      width: 100%;
+    }
+    .inputWeight {
+      height: 2.44rem;
+      width: 100%;
+      border-start-start-radius: 5px;
+      border-end-start-radius: 5px;
+
+      > div:first-child {
+        > div:last-child {
+          border-start-end-radius: 5px;
+          border-end-end-radius: 5px;
+        }
+      }
+
+      input {
+        height: 2.44rem;
+      }
+    }
+  }
+}

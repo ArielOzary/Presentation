@@ -1,0 +1,29 @@
+{
+  "addShipmentStatusError": "המשלוח כבר נמסר",
+  "impossibleToDelete": "בלתי אפשרי למחוק",
+  "shipmentDeletedSuccessfully": "המשלוח נמחק בהצלחה",
+  "shipmentTypes": {"air": "אווירי", "ocean": "ימי", "type": "סוג"},
+  "sortOptions": {
+    "creationDate": "תאריך היווצרות",
+    "lastAdded": "נוסף לאחרונה",
+    "lastUpdated": "עודכן לאחרונה",
+    "relevant": "רלוונטי",
+    "status": "סטטוס"
+  },
+  "statusSuccessfullyAdded": "סטטוס נוסף בהצלחה",
+  "statusSuccessfullyChanged": "הסטטוס שונה בהצלחה",
+  "statusSuccessfullyDeleted": "הסטטוס נמחק בהצלחה",
+  "statuses": {
+    "booking": "בוקינג",
+    "clearance": "מכס",
+    "delayed": "עיכוב",
+    "delivered": "נמסר",
+    "estimatedTimeOfArrival": "צפי הגעה לנמל",
+    "estimatedTimeOfDeparture": "צפי הפלגה",
+    "goodsAreOnBoardOrActualDeparture": "משלוח על האוניה\\תאריך הפלגה",
+    "noticeOfArrival": "הודעת הגעה",
+    "open": "פתוח"
+  },
+  "successfullyCreated": "משלוח נוצר בהצלחה",
+  "sureToWantDeleteShipment": "האם אתה בטוח שברצונך למחוק את המשלוח, פעולה זו היא בלתי הפיכה?"
+}

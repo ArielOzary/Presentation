@@ -1,0 +1,20 @@
+@import '@assets/styles/mixins';
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  @include breakpoint('xl') {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include breakpoint('md') {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .listsStyle {
+    height: 4rem;
+  }
+}

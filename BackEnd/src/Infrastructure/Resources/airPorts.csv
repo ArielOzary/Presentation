@@ -1,0 +1,483 @@
+﻿Country;Name;Province;Id
+Canada;Calgary International Airport;Alberta;1
+Canada;Edmonton International Airport;Alberta;2
+Canada;Gander International Airport;Newfoundland and Labrador;3
+Canada;Greater Moncton Roméo LeBlanc International Airport;New Brunswick;4
+Canada;Halifax Stanfield International Airport;Nova Scotia;5
+Canada;Hamilton/John C. Munro International Airport;Ontario;6
+Canada;London International Airport;Ontario;7
+Canada;Montréal–Pierre Elliott Trudeau International Airport;Quebec;8
+Canada;Ottawa Macdonald–Cartier International Airport;Ontario;9
+Canada;Québec/Jean Lesage International Airport;Quebec;10
+Canada;Regina International Airport;Saskatchewan;11
+Canada;Saskatoon John G. Diefenbaker International Airport;Saskatchewan;12
+Canada;St. John's International Airport;Newfoundland and Labrador;13
+Canada;Toronto Pearson International Airport;Ontario;14
+Canada;Vancouver International Airport;British Columbia;15
+Canada;Victoria International Airport;British Columbia;16
+Canada;Winnipeg International Airport;Manitoba;17
+ United States;Hartsfield–Jackson Atlanta International Airport;Atlanta;18
+ United States;Los Angeles International Airport;Los Angeles;19
+ United States;O'Hare International Airport;Chicago;20
+ United States;Dallas/Fort Worth International Airport;Dallas-Fort Worth;21
+ United States;Denver International Airport;Denver;22
+ United States;John F. Kennedy International Airport;New York City;23
+ United States;San Francisco International Airport;San Francisco;24
+ United States;McCarran International Airport;Las Vegas;25
+ United States;Seattle–Tacoma International Airport;Seattle-Tacoma;26
+ Canada;Toronto Pearson International Airport;Toronto;27
+Mexico;Mexico City International Airport;Mexico City;28
+ United States;Orlando International Airport;Orlando;29
+ United States;Charlotte Douglas International Airport;Charlotte;30
+ United States;Newark Liberty International Airport;Newark;31
+ United States;Miami International Airport;Miami;32
+ United States;Phoenix Sky Harbor International Airport;Phoenix;33
+ United States;George Bush Intercontinental Airport;Houston;34
+ United States;Logan International Airport;Boston;35
+ United States;Minneapolis–Saint Paul International Airport;Minneapolis-Saint Paul;36
+ United States;Fort Lauderdale-Hollywood International Airport;Fort Lauderdale;37
+ United States;Detroit Metropolitan Airport;Detroit;38
+ United States;Philadelphia International Airport;Philadelphia;39
+ United States;LaGuardia Airport;New York City;40
+ United States;Baltimore–Washington International Airport;Baltimore-Washington;41
+ Canada;Vancouver International Airport;Vancouver;42
+ United States;Salt Lake City International Airport;Salt Lake City;43
+ Mexico;Cancún International Airport;Cancún;44
+ United States;San Diego International Airport;San Diego;45
+ United States;Dulles International Airport;Washington;46
+ United States;Ronald Reagan Washington National Airport;Washington;47
+ United States;Midway International Airport;Chicago;48
+ United States;Tampa International Airport;Tampa;49
+ United States;Daniel K. Inouye International Airport;Honolulu;50
+ United States;Portland International Airport;Portland;51
+ Canada;Montréal-Trudeau International Airport;Montréal;52
+ Canada;Calgary International Airport;Calgary;53
+ United States;Dallas Love Field;Dallas;54
+ United States;Nashville International Airport;Nashville;55
+ United States;Austin–Bergstrom International Airport;Austin;56
+ United States;St. Louis Lambert International Airport;St. Louis;57
+ United States;William P. Hobby Airport;Houston;58
+ Mexico;Guadalajara International Airport;Guadalajara;59
+ United States;San Jose International Airport;San Jose;60
+ United States;Oakland International Airport;Oakland;61
+ United States;Louis Armstrong New Orleans International Airport;New Orleans;62
+ United States;Raleigh–Durham International Airport;Raleigh, Durham;63
+ United States;Sacramento International Airport;Sacramento;64
+ United States;Kansas City International Airport;Kansas City;65
+Mexico;Monterrey International Airport;Monterrey;66
+ United States;John Wayne Airport;Orange County;67
+Colombia;El Edén International Airport;;68
+Colombia;Ernesto Cortissoz International Airport;;69
+Colombia;El Dorado International Airport;;70
+Colombia;Palonegro International Airport;;71
+Colombia;Alfonso Bonilla Aragón International Airport;;72
+Colombia;Rafael Núñez International Airport;;73
+Colombia;Camilo Daza International Airport;;74
+Colombia;Alfredo Vásquez Cobo International Airport;;75
+Colombia;José María Córdova International Airport;;76
+Colombia;Matecaña International Airport;;77
+Colombia;Gustavo Rojas Pinilla Int'l Airport;;78
+Colombia;Simón Bolívar International Airport;;79
+Brazil;São Paulo Guarulhos Airport ;;80
+Brazil;São Paulo Congonhas Airport ;;81
+Brazil;Brasília Airport;;82
+Brazil;Rio de Janeiro Galeão Airport;;83
+Brazil;Belo Horizonte Tancredo Neves Airport;;84
+Brazil;Campinas Airport;;85
+Brazil;Rio de Janeiro Santos Dumont Airport ;;86
+Brazil;Recife Airport;;87
+Brazil;Porto Alegre Airport ;;88
+Brazil;Salvador Airport ;;89
+Brazil;Fortaleza Airport;;90
+Brazil;Curitiba Airport;;91
+Brazil;Belem Airport;;92
+Guatemala;Mundo Maya International Airport;;93
+Guatemala;La Aurora International Airport;;94
+Costa rica;Daniel Oduber Quirós International Airport;;95
+Costa rica;Limón International Airport;;96
+Costa rica;Juan Santamaría International Airport;;97
+Costa rica;Tobías Bolaños International Airport;;98
+ Argentina;Ministro Pistarini International Airport;;99
+ Argentina;Aeroparque Jorge Newbery;;100
+ Chile;Comodoro Arturo Merino Benítez International Airport;;101
+ Dominican Republic;Punta Cana International Airport;;102
+ Mexico;Mexico City International Airport;;103
+ Mexico;Cancún International Airport;;104
+ Mexico;Guadalajara International Airport;;105
+ Mexico;Monterrey International Airport;;106
+ Mexico;Tijuana International Airport;;107
+ Panama;Tocumen International Airport;;108
+ Peru;Jorge Chávez International Airport;;109
+ Puerto Rico;Luis Muñoz Marín International Airport;;110
+  Switzerland;Zurich Airport;;111
+  Switzerland;Geneva Airport;;112
+  Switzerland;EuroAirport Basel Mulhouse Freiburg;;113
+ Austria;Vienna International Airport;;114
+ Belgium;Brussels Airport;;115
+ Belgium;Brussels South Charleroi Airport;;116
+ Bulgaria;Sofia Airport;;117
+ Czech Republic;Václav Havel Airport Prague;;118
+ Denmark;Copenhagen Airport;;119
+ Finland;Helsinki Airport;;120
+ France;Charles de Gaulle Airport;;121
+ France;Orly Airport;;122
+ France;Nice Côte d'Azur Airport;;123
+ France;Lyon–Saint-Exupéry Airport;;124
+ France;Marseille Provence Airport;;125
+ France;Toulouse–Blagnac Airport;;126
+ France;EuroAirport Basel Mulhouse Freiburg;;127
+ France;Bordeaux–Mérignac Airport;;128
+ France;Nantes Atlantique Airport;;129
+ Germany;Frankfurt am Main Airport;;130
+ Germany;Munich Airport;;131
+ Germany;Düsseldorf Airport;;132
+ Germany;Berlin Tegel Airport;;133
+ Germany;Hamburg Airport;;134
+ Germany;Stuttgart Airport;;135
+ Germany;Cologne Bonn Airport;;136
+ Germany;Berlin Schönefeld Airport;;137
+ Germany;Langenhagen Airport;;138
+ Greece;Athens International Airport;;139
+ Greece;Heraklion International Airport;;140
+ Greece;"Thessaloniki Airport ""Macedonia""";;141
+ Hungary;Budapest Ferenc Liszt International Airport;;142
+ Iceland;Keflavík International Airport;;143
+ Ireland;Dublin Airport;;144
+ Italy;Leonardo da Vinci–Fiumicino Airport;;145
+ Italy;Malpensa Airport;;146
+ Italy;Orio al Serio International Airport;;147
+ Italy;Venice Marco Polo Airport;;148
+ Italy;Naples Airport;;149
+ Italy;Catania-Fontanarossa Airport;;150
+ Italy;Bologna Guglielmo Marconi Airport;;151
+ Italy;Falcone–Borsellino Airport;;152
+ Italy;Linate Airport;;153
+ Latvia;Riga International Airport;;154
+ Malta;Malta International Airport;;155
+ Netherlands;Amsterdam Airport Schiphol;;156
+ Netherlands;Eindhoven Airport;;157
+ Norway;Oslo Airport, Gardermoen;;158
+ Norway;Bergen Airport Flesland;;159
+ Norway;Trondheim Airport Værnes;;160
+ Norway;Stavanger Airport Sola;;161
+ Norway;Tromsø Airport;;162
+ Norway;Sandefjord Torp Airport;;163
+ Norway;Bodø Airport;;164
+ Norway;Ålesund Airport Vigra;;165
+ Norway;Kristiansand Airport Kjevik;;166
+ Norway;Harstad/Narvik Airport Evenes;;167
+ Norway;Haugesund Airport Karmøy;;168
+ Norway;Molde Airport Årø;;169
+ Norway;Alta Airport;;170
+ Norway;Oslo Airport, Gardermoen;;171
+ Norway;Bergen Airport, Flesland;;172
+ Poland;Warsaw Chopin Airport;;173
+ Poland;Kraków John Paul II International Airport;;174
+ Portugal;Lisbon Airport;;175
+ Portugal;Porto Airport;;176
+ Portugal;Faro Airport;;177
+ Romania;Henri Coandă International Airport;;178
+ Russia;Sheremetyevo International Airport;;179
+ Russia;Domodedovo International Airport;;180
+ Russia;Vnukovo International Airport;;181
+ Russia;Pulkovo Airport;;182
+ Serbia;Belgrade Nikola Tesla Airport;;183
+ Spain;Adolfo Suárez Madrid–Barajas Airport;;184
+ Spain;Barcelona–El Prat Josep Tarradellas Airport;;185
+ Spain;Palma de Mallorca Airport;;186
+ Spain;Málaga Airport;;187
+ Spain;Alicante Airport;;188
+ Spain;Valencia Airport;;189
+ Spain;Ibiza Airport;;190
+ Spain;Seville Airport;;191
+ Spain;Bilbao Airport;;192
+ Sweden;Stockholm Arlanda Airport;;193
+ Sweden;Göteborg Landvetter Airport;;194
+ Turkey;Istanbul Airport;;195
+ Ukraine;Boryspil International Airport;;196
+ United Kingdom;Heathrow Airport;;197
+ United Kingdom;Gatwick Airport;;198
+ United Kingdom;Manchester Airport;;199
+ United Kingdom;London Stansted Airport;;200
+ United Kingdom;Luton Airport;;201
+ United Kingdom;Edinburgh Airport;;202
+ United Kingdom;Birmingham Airport;;203
+ United Kingdom;Bristol Airport;;204
+ United Kingdom;Glasgow Airport;;205
+ United Kingdom;Belfast International Airport;;206
+Austria;Vienna International Airport (Wien-Schwechat Airport);;207
+Austria;Salzburg Airport (Salzburg Airport W.A. Mozart);;208
+Austria;Linz Airport (blue danube airport linz);;209
+Austria;Klagenfurt Airport (Kärnten Airport);;210
+Austria;Innsbruck Airport;;211
+Austria;Hohenems-Dornbirn Airport;;212
+Austria;Graz Airport;;213
+Bosnia;Sarajevo International Airport;;214
+Bulgaria;Burgas Airport;;215
+Bulgaria;Gorna Oryahovitsa Airport;;216
+Bulgaria;Plovdiv Airport;;217
+Bulgaria;Ruse Airport (not operational);;218
+Bulgaria;Sofia Airport;;219
+Bulgaria;Stara Zagora Airport (not operational);;220
+Bulgaria;Varna Airport;;221
+Cyprus;Larnaca International Airport;;222
+Czech Republic;Brno-Tuřany Airport;;223
+Czech Republic;Karlovy Vary Airport;;224
+Czech Republic;Leoš Janáček Airport Ostrava;;225
+Czech Republic;Pardubice Airport;;226
+Czech Republic;Václav Havel Airport;;227
+Czech Republic;Kunovice Airport;;228
+Denmark;Copenhagen Airport;;229
+Denmark;Billund Airport;;230
+Denmark;Aalborg Airport;;231
+Denmark;Aarhus Airport;;232
+Faroe Islands;Vágar Airport;;233
+Finland;Helsinki Airport;;234
+Finland;Oulu Airport;;235
+Finland;Rovaniemi Airport;;236
+Finland;Turku Airport;;237
+Finland;Kittilä Airport;;238
+France;Paris Charles de Gaulle;;239
+France;Paris Orly;;240
+France;Nice;;241
+France;Lyon Saint Exupéry;;242
+France;Toulouse Blagnac;;243
+France;Marseille;;244
+France;Bâle Mulhouse;;245
+France;Bordeaux Mérignac;;246
+France;Nantes;;247
+France;Beauvais;;248
+France;Réunion Roland Garros;;249
+France;Pointe-à-Pitre;;250
+Georgia;Batumi International Airport;;251
+Georgia;Kutaisi International Airport;;252
+Georgia;Tbilisi International Airport;;253
+Georgia;Sokhumi Airport;;254
+Germany;Karlsruhe/Baden-Baden Airport;;255
+Germany;Berlin Brandenburg Airport (under construction);;256
+Germany;Borkum Airfield;;257
+Germany;Bremen Airport;;258
+Germany;Cologne Bonn Airport;;259
+Germany;Dortmund Airport;;260
+Germany;Dresden Airport (Dresden-Klotzsche Airport);;261
+Germany;Düsseldorf Airport;;262
+Germany;Emden Airport;;263
+Germany;Erfurt-Weimar Airport;;264
+Germany;Frankfurt Airport (Frankfurt am Main Airport) (Rhein-Main Airport);;265
+Germany;Flugplatz Freiburg;;266
+Germany;Friedrichshafen Airport (Bodensee Airport, Friedrichshafen);;267
+Germany;Hamburg Airport (Hamburg-Fuhlsbüttel Airport);;268
+Germany;Flughafen Lahr;;269
+Germany;Leipzig/Halle Airport;;270
+Germany;Munich Airport;;271
+Germany;Stuttgart Airport (was Stuttgart Army Airfield, Stuttgart Echterdingen Airport);;272
+Greece;"Alexandroupolis International Airport ""Democritus""";;273
+Greece;"Athens International Airport ""Eleftherios Venizelos""";;274
+Greece;"Chania International Airport ""Ioannis Daskalogiannis""";;275
+Greece;"Chios Island National Airport ""Homer""";;276
+Greece;"Corfu Island International Airport ""Ioannis Kapodistrias""";;277
+Greece;"Heraklion International Airport ""Nikos Kazantzakis""";;278
+Greece;"Kalamata International Airport ""Captain Vassilis Constantakopoulos""";;279
+Greece;"Kavala International Airport ""Alexander the Great""";;280
+Greece;"Kefalonia Island International Airport ""Anna Pollatou""";;281
+Greece;"Kos Island International Airport ""Hippocrates""";;282
+Greece;"Lemnos Island International Airport ""Hephaestus""";;283
+Greece;"Mytilene Island International Airport ""Odysseas Elitis""";;284
+Greece;"Paros Island National Airport ""Panteleou Paros Airport""";;285
+Greece;"Rhodes Island International Airport ""Diagoras""";;286
+Greece;"Samos Island International Airport ""Aristarchus of Samos""";;287
+Greece;"Thessaloniki International Airport ""Macedonia""";;288
+Greece;"Zakynthos Island International Airport ""Dionisios Solomos""";;289
+Hungary;Budapest Ferenc Liszt International Airport;;290
+Hungary;Debrecen International Airport;;291
+Hungary;Hévíz-Balaton Airport;;292
+Hungary;Győr-Pér International Airport;;293
+Hungary;Pécs-Pogány International Airport;;294
+Iceland;Keflavík International Airport;;295
+Iceland;Reykjavík Airport;;296
+Ireland;Dublin Airport;;297
+Italy;"Bari-Palese ""Karol Wojtyla"" Airport";;298
+Italy;"Ravenna ""Gastone Novelli"" Airport";;299
+Italy;"Friuli-Venezia Giulia ""Pietro Savorgnan di Brazzà"" Airport";;300
+Italy;"Rome Ciampino ""Giovan Battista Pastine"" Airport";;301
+Italy;"Genoa ""Cristoforo Colombo"" Airport";;302
+Italy;Milan-Malpensa Airport;;303
+Italy;"Palermo-Punta Raisi ""Falcone & Borsellino"" Airport";;304
+Italy;Venice Marco Polo Airport;;305
+Italy;"Verona-Villafranca ""Valerio Catullo"" Airport";;306
+Italy;"Vicenza ""Tommaso Dal Molin"" Airport (public/military)";;307
+Sweden;Stockholm Arlanda Airport;;308
+Sweden;Göteborg Landvetter Airport;;309
+Sweden;Stockholm Bromma Airport;;310
+Sweden;Stockholm Skavsta Airport;;311
+Sweden;Malmö Airport;;312
+Sweden;Luleå Airport;;313
+Sweden;Umeå Airport;;314
+Sweden;Åre Östersund Airport;;315
+Sweden;Visby Airport;;316
+Sweden;Ängelholm Helsingborg Airport;;317
+Cambodia;Phnom Penh International Airport;;318
+Cambodia;Siem Reap International Airport;;319
+Cambodia;Sihanouk International Airport;;320
+China;Shanghai Pudong International Airport;;321
+China;Beijing Capital International Airport;;322
+China;Guangzhou Baiyun International Airport;;323
+China;Shenzhen Bao'an International Airport;;324
+China;Hangzhou Xiaoshan International Airport;;325
+China;Chengdu Shuangliu International Airport;;326
+China;Zhengzhou Xinzheng International Airport;;327
+China;Shanghai Hongqiao International Airport;;328
+China;Kunming Changshui International Airport;;329
+China;Chongqing Jiangbei International Airport;;330
+China;Xi'an Xianyang International Airport;;331
+China;Nanjing Lukou International Airport;;332
+China;Xiamen Gaoqi International Airport;;333
+China;Qingdao Liuting International Airport;;334
+China;Wuhan Tianhe International Airport;;335
+China;Tianjin Binhai International Airport;;336
+China;Shenyang Taoxian International Airport;;337
+China;Changsha Huanghua International Airport;;338
+China;Haikou Meilan International Airport;;339
+China;Dalian Zhoushuizi International Airport;;340
+China;Ürümqi Diwopu International Airport;;341
+China;Sunan Shuofang International Airport;;342
+China;Harbin Taiping International Airport;;343
+China;Jinan Yaoqiang International Airport;;344
+China;Fuzhou Changle International Airport;;345
+China;Nanchang Changbei International Airport;;346
+China;Nanning Wuxu International Airport;;347
+China;Guiyang Longdongbao International Airport;;348
+China;Ningbo Lishe International Airport;;349
+China;Sanya Phoenix International Airport;;350
+China;Changchun Longjia International Airport;;351
+China;Hefei Xinqiao International Airport;;352
+China;Wenzhou Yongqiang International Airport;;353
+China;Quanzhou Jinjiang International Airport;;354
+China;Lanzhou Zhongchuan International Airport;;355
+China;Yinchuan Hedong International Airport;;356
+China;Taiyuan Wusu International Airport;;357
+China;Yantai Penglai International Airport;;358
+China;Shijiazhuang Zhengding International Airport;;359
+China;Zhuhai Jinwan Airport;;360
+China; Beijing Capital International Airport;;361
+China; Shanghai Pudong International Airport;;362
+China; Guangzhou Baiyun International Airport;;363
+China; Chengdu Shuangliu International Airport;;364
+China; Shenzhen Bao'an International Airport;;365
+China; Kunming Changshui International Airport;;366
+China; Xi'an Xianyang International Airport;;367
+China; Shanghai Hongqiao International Airport;;368
+China; Chongqing Jiangbei International Airport;;369
+China; Hangzhou Xiaoshan International Airport;;370
+China; Nanjing Lukou International Airport;;371
+China; Zhengzhou Xinzheng International Airport;;372
+China; Xiamen Gaoqi International Airport;;373
+China; Changsha Huanghua International Airport;;374
+China; Qingdao Liuting International Airport;;375
+China; Wuhan Tianhe International Airport;;376
+China; Haikou Meilan International Airport;;377
+China; Tianjin Binhai International Airport;;378
+China; Ürümqi Diwopu International Airport;;379
+Hong Kong; Hong Kong International Airport;;380
+India;Indira Gandhi International Airport;;381
+India;Chhatrapati Shivaji International Airport;;382
+India;Kempegowda International Airport;;383
+India;Rajiv Gandhi International Airport;;384
+India;Chennai International Airport;;385
+India;Netaji Subhas Chandra Bose International Airport;;386
+India;Sardar Vallabhbhai Patel International Airport;;387
+India;Cochin International Airport;;388
+India;Goa International Airport;;389
+India;Pune International Airport;;390
+India;Lokpriya Gopinath Bordoloi International Airport;;391
+India;Jaipur International Airport;;392
+India;Chaudhary Charan Singh International Airport;;393
+India;Jay Prakash Narayan Airport;;394
+India;Trivandrum International Airport;;395
+India;Biju Patnaik International Airport;;396
+India;Calicut International Airport;;397
+India;Lal Bahadur Shastri Airport;;398
+India;Bagdogra Airport;;399
+India;Dr. Babasaheb Ambedkar International Airport;;400
+India; Indira Gandhi International Airport;;401
+India; Chhatrapati Shivaji Maharaj International Airport;;402
+India; Kempegowda International Airport;;403
+India; Chennai International Airport;;404
+Indonesia; Soekarno–Hatta International Airport;;405
+Indonesia; Ngurah Rai International Airport;;406
+Israel; Ben Gurion Airport;;407
+Japan;Kansai International Airport;;408
+Japan;Narita International Airport;;409
+Japan;Chūbu Centrair International Airport;;410
+Japan;Tokyo International Airport;;411
+Japan;Osaka International Airport;;412
+Japan; Tokyo International Airport;;413
+Japan; Narita International Airport;;414
+Japan; Kansai International Airport;;415
+Japan; New Chitose Airport;;416
+Japan; Fukuoka Airport;;417
+Malaysia; Kuala Lumpur International Airport;;418
+Philippines; Ninoy Aquino International Airport;;419
+Qatar; Hamad International Airport;;420
+Republic of Korea; Incheon International Airport;;421
+Republic of Korea; Jeju International Airport;;422
+Republic of Korea; Gimpo International Airport;;423
+Saudi Arabia; King Abdulaziz International Airport;;424
+Saudi Arabia; King Khalid International Airport;;425
+Singapore; Singapore Changi Airport;;426
+Taiwan; Taiwan Taoyuan International Airport;;427
+Thailand; Suvarnabhumi Airport;;428
+Thailand; Don Mueang International Airport;;429
+Turkey; Sabiha Gökçen International Airport;;430
+Turkey; Antalya Airport;;431
+United Arab Emirates; Dubai International Airport;;432
+United Arab Emirates; Abu Dhabi International Airport;;433
+Vietnam; Tan Son Nhat International Airport;;434
+Vietnam; Noi Bai International Airport;;435
+Australia;Sydney Airport;;436
+Australia;Melbourne Airport;;437
+Australia;Brisbane Airport;;438
+Australia;Perth Airport;;439
+Australia;Adelaide Airport;;440
+Australia;Gold Coast Airport;;441
+Australia;Cairns Airport;;442
+Australia;Canberra Airport;;443
+Australia;Hobart Airport;;444
+Australia;Darwin International Airport;;445
+Cameron;Yaoundé Nsimalen International Airport;;446
+Cameron;Ngaoundéré Airport (N'Gaoundéré Airport);;447
+Cameron;Maroua Salak Airport;;448
+Cameron;Douala International Airport;;449
+Cameron;Garoua International Airport;;450
+Ethiopia;Bole International Airport (Addis;;451
+Ethiopia;Asosa Airport;;452
+Ethiopia;Axum Airport;;453
+Djibouti;Djibouti–Ambouli International Airport;;454
+Egypt;Sphinx International Airport;;455
+Egypt;Alexandria International Airport;;456
+Egypt;Aswan International Airport;;457
+Egypt;Cairo International Airport;;458
+Egypt;El Arish International Airport;;459
+Egypt;El Alamain International Airport;;460
+Egypt;Hurghada International Airport;;461
+Egypt;Luxor International Airport;;462
+Egypt;Marsa Alam International Airport;;463
+Egypt;Sharm El Sheikh International Airport;;464
+Egypt;St. Catherine International Airport;;465
+Egypt;Taba International Airport;;466
+ South Africa;O. R. Tambo International Airport;;467
+ Spain;Gran Canaria Airport;;468
+ Spain;Tenerife South Airport;;469
+ South Africa;Cape Town International Airport;;470
+ Morocco;Mohammed V International Airport;;471
+ Algeria;Houari Boumediene Airport;;472
+ Kenya;Jomo Kenyatta International Airport;;473
+ Nigeria;Murtala Muhammed International Airport;;474
+ Tunisia;Tunis Carthage Airport;;475
+ Spain;Fuerteventura Airport;;476
+ South Africa;King Shaka International Airport;;477
+ Spain;Tenerife North Airport;;478
+ Morocco;Marrakesh Menara Airport;;479
+ Mauritius;Sir Seewoosagur Ramgoolam International Airport;;480
+ Nigeria;Nnamdi Azikiwe International Airport;;481
+ Tanzania;Julius Nyerere International Airport;;482

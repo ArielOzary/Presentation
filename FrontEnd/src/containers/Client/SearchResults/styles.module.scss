@@ -1,0 +1,11 @@
+@import '@assets/styles/mixins';
+
+.wrapper {
+  display: flex;
+  gap: 1.31rem;
+  padding-bottom: 2rem;
+
+  @include breakpoint('lg') {
+    flex-wrap: wrap;
+  }
+}

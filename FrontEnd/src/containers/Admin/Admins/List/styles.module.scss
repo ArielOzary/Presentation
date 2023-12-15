@@ -1,0 +1,22 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  background: #fbfbfb;
+
+  .list {
+    flex: 1;
+
+    > div {
+      height: 100%;
+    }
+
+    .scrollBar {
+      height: 100%;
+    }
+  }
+}

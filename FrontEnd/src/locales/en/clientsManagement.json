@@ -1,0 +1,32 @@
+{
+  "activeTab": "Active",
+  "arrivalDate": "Arrival date",
+  "basicInfoTab": "Basic Info",
+  "basicInformationUpdated": "Basic information updated successfully",
+  "blockUser": "Block user",
+  "clientProfitsTab": "Client Profits",
+  "clientRegistrationRejected": "Client registration rejected",
+  "clientRegistrationUnRejected": "Client registration un-rejected",
+  "defineReason": "Please define a reason",
+  "deleteUser": "Delete user",
+  "departedDate": "Departed date",
+  "exportToExcel": "Export to Excel",
+  "exported": "Exported",
+  "freight": "FREIGHT",
+  "historyTab": "History",
+  "profitMargin": "Total Profit",
+  "statuses": {
+    "pending": "Pending",
+    "rejected": "Rejected",
+    "verified": "Verified"
+  },
+  "sureToWantBlockUser": "Are you sure you want to block the user?",
+  "sureToWantDeleteUser": "Are you sure you want to delete the user, this action is irreversible?",
+  "sureToWantRejectClient": "Are you sure you want to reject client's registration?",
+  "sureToWantUnRejectClient": "Are you sure you want to unreject client?",
+  "sureToWantUnblockUser": "Are you sure you want to unblock the user?",
+  "unblockUser": "Unblock user",
+  "userActivatedSuccessfully": "User activated successfully",
+  "userDeactivatedSuccessfully": "User deactivated successfully",
+  "userDeletedSuccessfully": "User deleted successfully"
+}

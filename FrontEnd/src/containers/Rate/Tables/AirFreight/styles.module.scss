@@ -1,0 +1,41 @@
+.blockInput{
+    display: flex;
+    align-items: center;
+    width: 13.125rem;
+    gap:1.063rem;
+    padding-bottom: 1.563rem;
+    
+}
+.boxColumnPer{
+    display: flex;
+    align-items:stretch;
+    gap:6px
+}
+.dropDawn{
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    padding: 7px 0px;
+    flex: 0 1 50%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14px;
+    font-weight: 400;
+}
+.inputPer{
+    flex: 0 1 50%;
+    border-radius:2px;
+    display: flex;
+    align-items:center
+}
+.buttonAdd{
+    display: flex;
+    justify-content: center;
+
+}
+.button{
+    border: 1px solid #D9D9D9;
+    cursor: pointer;
+}
+.max{
+    display: flex;
+}

@@ -1,0 +1,37 @@
+@import '@assets/styles/mixins';
+
+.addressRow {
+  display: flex;
+  gap: 1rem;
+
+  @include breakpoint('sm') {
+      flex-wrap: wrap;
+      gap: 1rem;
+  }
+
+  > div {
+      &:first-child {
+          flex: 1;
+
+          @include breakpoint('sm') {
+              min-width: 100%;
+          }
+      }
+
+      &:nth-child(2) {
+          width: 5.5rem;
+
+          @include breakpoint('sm') {
+              width: calc(40% - 1rem);
+          }
+      }
+
+      &:nth-child(3) {
+          width: 9.5rem;
+
+          @include breakpoint('sm') {
+              width: 60%;
+          }
+      }
+  }
+}

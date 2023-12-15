@@ -1,0 +1,18 @@
+{
+  "address": "Address",
+  "chooseSupplier": "Choose Supplier",
+  "click": "Click to Upload",
+  "companyInformation": "Company Information",
+  "contactPerson": "Person Of Contact",
+  "continue": "Continue",
+  "createNew": "Create New",
+  "errors": {
+    "address": "Company address is missing",
+    "companyName": "Company name is missing",
+    "name": "Name is missing",
+    "phone": "Phone number is missing"
+  },
+  "openShipment": "Open Shipment",
+  "title": "Let us know more about your supplier",
+  "upload": "Upload"
+}

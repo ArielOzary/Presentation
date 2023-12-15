@@ -1,0 +1,10 @@
+{
+  "errors": {
+    "emailInvalid": "Email is invalid",
+    "emailRequired": "Email is required"
+  },
+  "forgotPassword": "Forgot Password?",
+  "login": "Login",
+  "momentsAway": "You’re just moments away from getting the\nmost accurate prices on the market!",
+  "welcomeBack": "Welcome Back!"
+}

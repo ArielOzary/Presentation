@@ -1,0 +1,68 @@
+@import '@assets/styles/mixins';
+@import '@assets/styles/palette';
+
+.wrapper {
+  padding: 0 4rem;
+
+  @include breakpoint('md') {
+    padding: 0 3rem;
+  }
+
+  @include breakpoint('sm') {
+    padding: 0 1rem;
+  }
+
+  .title {
+    @include textStyle(_, 1.5rem, 1.375rem);
+    margin-bottom: 1.25rem;
+    color: $gray3Color;
+
+    .editBtn {
+      @include textStyle(_, 1rem, 1.19rem);
+      position: absolute;
+      top: 2rem;
+      right: 3.3rem;
+      display: flex;
+      align-items: center;
+      padding: 0.25rem 1rem !important;
+      border: none;
+      background-color: transparent;
+      color: $primaryColor;
+
+      @include breakpoint('sm') {
+        top: 1rem;
+        right: 1rem;
+      }
+
+      .icon {
+        font-size: 1.44rem;
+      }
+
+      @include onRTL {
+        right: initial;
+        left: 3.85rem;
+      }
+    }
+  }
+  .icon {
+    cursor: pointer;
+    font-size: 2rem;
+    color: $primaryColor;
+  }
+
+  table {
+    thead {
+      tr {
+        th {
+          background: $white !important;
+          &::before {
+            content: none !important;
+          }
+        }
+        td {
+          background: transparent !important;
+        }
+      }
+    }
+  }
+}

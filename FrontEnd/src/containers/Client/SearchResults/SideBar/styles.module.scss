@@ -1,0 +1,82 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.wrapper {
+  flex: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.56rem;
+
+  .block {
+    display: flex;
+    flex-direction: column;
+    padding: 1.125rem 1rem;
+    background: #fbfbfb;
+    border: 1px solid $borderColor;
+    border-radius: 6px;
+
+    .title {
+      @include textStyle(400, 1rem, 1.125rem);
+      margin-bottom: 1.31rem;
+      color: $grayColor;
+    }
+
+    .price {
+      @include textStyle(400, 0.86rem, 0.875rem);
+      margin-bottom: 3px;
+      color: $gray3Color;
+    }
+
+    .slider {
+      :global {
+        .ant-slider-handle {
+          inset-block-start: 0;
+
+          &::after {
+            width: 0.75rem;
+            height: 0.75rem;
+            box-shadow: 0 0 0 2px #6c5dd3;
+          }
+
+          &:hover::after {
+            width: 0.94rem;
+            height: 0.94rem;
+          }
+        }
+
+        .ant-slider-track {
+          background-color: $primaryColor !important;
+        }
+      }
+    }
+  }
+
+  .date {
+    > div:last-child {
+      width: fit-content;
+
+      > div {
+        display: inline-flex;
+        flex-direction: row-reverse;
+        gap: 0.5rem;
+
+        input {
+          // width: 3.75rem;
+          color: $gray3Color;
+        }
+
+        span {
+          color: $gray2Color;
+        }
+      }
+    }
+  }
+
+  .bgc {
+    background: #fbfbfb;
+  }
+
+  .listsStyle {
+    height: 4rem;
+  }
+}

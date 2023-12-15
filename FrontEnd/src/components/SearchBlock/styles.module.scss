@@ -1,0 +1,29 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.search {
+  padding: 0.81rem 0.56rem;
+  background: #fff;
+
+  .icon {
+    color: #676767;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+
+    @include onRTL {
+      margin-right: 0;
+      margin-left: 1rem;
+    }
+  }
+
+  .input {
+    background: #f4f4f4;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+
+    input::placeholder {
+      color: #676767;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import '@assets/styles/mixins';
+
+.scrollBars {
+  > div:first-child {
+    @include onRTL {
+      margin-right: 0 !important;
+      // margin-left: -17px;
+    }
+  }
+
+  > div:last-child {
+    width: 0.25rem !important;
+
+    @include onRTL {
+      right: initial !important;
+      left: 2px !important;
+    }
+  }
+}

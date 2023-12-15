@@ -1,0 +1,50 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fbfbfb;
+  border-radius: 0.5rem 0px 0px 0.5rem;
+
+  .search {
+    .icon {
+      color: #676767;
+      font-size: 1.3rem;
+      margin-right: 1rem;
+
+      @include onRTL {
+        margin-right: 0;
+        margin-left: 1rem;
+      }
+    }
+
+    .input {
+      background: #f4f4f4;
+      height: 2.5rem;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+
+      input::placeholder {
+        color: #676767;
+      }
+    }
+  }
+
+  .list {
+    flex: 1;
+
+    > div {
+      height: 100%;
+    }
+
+    .scrollBar {
+      height: 100%;
+
+      > div:last-child {
+        width: 0.438rem !important;
+      }
+    }
+  }
+}

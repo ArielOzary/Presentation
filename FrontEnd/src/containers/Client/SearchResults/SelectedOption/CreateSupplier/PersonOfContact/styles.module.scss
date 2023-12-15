@@ -1,0 +1,16 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.title {
+  @include textStyle(700, 1.125rem, 1.375rem);
+  display: block;
+  margin-bottom: 0.625rem;
+  color: $gray2Color;
+}
+
+.upload {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 22px;
+}

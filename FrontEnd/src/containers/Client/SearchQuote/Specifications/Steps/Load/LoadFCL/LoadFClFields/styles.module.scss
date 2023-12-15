@@ -1,0 +1,94 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.packageRow {
+  display: flex;
+  gap: 1.375rem;
+
+  @include breakpoint('md') {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  > div:first-child {
+    width: calc(28% - 1.375rem);
+
+    @include breakpoint('md') {
+      width: 50%;
+    }
+
+    .inputNumber {
+      width: 100%;
+      border-radius: 5px;
+
+      > div:first-child {
+        border-start-end-radius: 5px;
+        border-end-end-radius: 5px;
+      }
+    }
+  }
+
+  > div:last-child {
+    width: 72%;
+
+    @include breakpoint('md') {
+      width: 100%;
+    }
+    .radioBtnBlock {
+      width: 100%;
+      display: flex;
+
+      .radioBtn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        color: $gray3Color;
+
+        @include breakpoint('md') {
+          font-size: 0.875rem;
+          line-height: 1rem;
+        }
+
+        :global {
+          .ant-radio-button-checked {
+            background: rgba($primaryColor, 0.1);
+          }
+        }
+      }
+    }
+  }
+}
+
+.inputAddon {
+  display: flex;
+  width: 35%;
+  border-end-end-radius: 5px;
+  border-start-end-radius: 5px;
+
+  input {
+    height: 2.44rem !important;
+  }
+
+  @include breakpoint('md') {
+    width: initial;
+  }
+
+  :global {
+    .ant-input-number {
+      width: 100%;
+      height: 2.44rem;
+    }
+  }
+
+  .select {
+    > div:first-of-type {
+      display: flex;
+      align-items: center;
+      height: 2.44rem;
+      background-color: #f2f2f2;
+      border-end-end-radius: 5px;
+      border-start-end-radius: 5px;
+    }
+  }
+}

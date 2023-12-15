@@ -1,0 +1,45 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 1.8rem;
+  padding-top: 2.7rem;
+  padding-bottom: 1.125rem;
+  background: $white;
+  border: 1px solid $borderColor;
+  border-radius: 0px 0px 6px 6px;
+  margin-top: -10px;
+
+  @include breakpoint('md') {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .totalBlock {
+    @include textStyle(400, 0.75rem, 1.125rem);
+    letter-spacing: 0.5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2.75rem;
+    padding-left: 1.375rem;
+    padding-right: 0.81rem;
+
+    color: $grayColor;
+    background: rgba(108, 93, 211, 0.1);
+    border: 0.5px solid #eaeaea;
+
+    @include breakpoint('md') {
+      padding-left: 0.2rem;
+      padding-right: 0.2rem;
+    }
+
+    .total {
+      @include textStyle(700, 0.875rem, 1.125rem);
+    }
+  }
+}

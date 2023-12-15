@@ -1,0 +1,26 @@
+@import '@assets/styles/palette';
+
+.wrapper {
+  width: 100%;
+  background: #fff;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+
+  > div:first-child {
+    svg {
+      color: $primaryColor;
+    }
+  }
+
+  .btnsBlock {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    .btn {
+      font-size: 18px;
+      height: 2.875rem;
+      width: 10.125rem;
+    }
+  }
+}

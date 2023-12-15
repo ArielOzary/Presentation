@@ -1,0 +1,12 @@
+{
+  "airProfit": "Air Profit",
+  "customClearance": "Custom Clearance",
+  "destinationProfit": "Destination Charges Profit",
+  "fclProfit": "FCL Profit",
+  "lclProfit": "LCL Profit",
+  "originChargesProfit": "Origin Charges Profit",
+  "otherCharges": "Other Charges",
+  "profit": "PROFIT",
+  "profitsUpdated": "Profits updated successfully",
+  "travelProfits": "Travel Profits"
+}

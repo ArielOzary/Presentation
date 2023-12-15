@@ -1,0 +1,53 @@
+@import '@assets/styles/mixins';
+@import '@assets/styles/palette';
+
+.title {
+  flex: 25%;
+  @include textStyle(_, 2rem, 2.31rem);
+  margin-bottom: 1.75rem;
+  color: $gray3Color;
+}
+.content {
+  display: flex;
+  gap: 2rem;
+
+  @include breakpoint('xl') {
+    flex-wrap: wrap;
+  }
+
+  @include breakpoint('md') {
+    gap: 1.5rem;
+  }
+  @include breakpoint('sm') {
+    gap: 1rem;
+  }
+  @include breakpoint('xs') {
+    gap: 0.5rem;
+  }
+
+  .main {
+    flex: 75%;
+    flex-direction: column;
+
+    .tabs {
+      color: $gray3Color;
+
+      > div:first-child > div:first-child > div {
+        display: flex;
+        gap: 1.31rem !important;
+
+        > div {
+          @include textStyle(_, 1rem, 1.1rem);
+
+          margin-left: 0 !important;
+        }
+      }
+
+      :global {
+        .ant-tabs-tab.ant-tabs-tab-active {
+          @include textStyle(700, 1rem, 1.1rem);
+        }
+      }
+    }
+  }
+}

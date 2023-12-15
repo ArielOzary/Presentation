@@ -1,0 +1,37 @@
+@import '@assets/styles/mixins';
+@import '@assets/styles/palette';
+
+.wrapper {
+  flex: 1;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  
+  > div {
+    display: flex;
+    margin: auto;
+  }
+
+  .locale {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+
+    @include onRTL {
+      right: initial;
+      left: 1rem;
+    }
+  }
+
+  .card {
+    max-width: 38rem;
+    margin: 4rem 1rem 2rem 1rem;
+
+    .result {
+      @include breakpoint('sm') {
+        padding: 0;
+      }
+    }
+  }
+}

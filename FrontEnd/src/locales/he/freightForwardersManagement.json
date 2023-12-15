@@ -1,0 +1,17 @@
+{
+  "accountAndPersonalDataDeleted": "\nהחשבון שלך וכל הנתונים האישיים נמחקו",
+  "addFreightForwarder": "הוסף משלח",
+  "basicInfoTab": "פרטים כלליים",
+  "basicInfoUpdated": "פרטים כלליים עודכנו בהצלחה\n",
+  "companyLocationTab": "כתובת חברה",
+  "confirmToDeleteForwarder": "למחוק משלח?",
+  "confirmToDeleteProfile": "האם אתם בטוחים שתרצו למחוק את הפרופיל?",
+  "contactInfoTab": "פרטי איש קשר",
+  "contactsUpdated": "אנשי קשר עודכנו בהצלחה",
+  "deleteForwarder": "מחק משלח",
+  "deleteProfile": "מחיקת הפרופיל",
+  "editProfileWarning": "שינוי דוא\"ל יחייב אותך להשתמש בדוא\"ל חדש עבור כל כניסה נוספת. שימו לב שהדוא\"ל הישן לא יהיה תקף עוד.",
+  "invitationSentSuccessfully": "הזמנה עם הוראות נשלחה בהצלחה",
+  "inviteForwarder": "הזמן משלח",
+  "locationUpdated": "מיקום עודכן בהצלחה"
+}

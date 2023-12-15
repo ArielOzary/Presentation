@@ -1,0 +1,19 @@
+{
+  "back": "Back to Dashboard",
+  "companyName": "Company Name",
+  "contactInfo": "Contact Information",
+  "contactUs": "Contact Us",
+  "errors": {
+    "email": "Contact Email should conform to the email format (xxxxx@xxxx.xx)",
+    "message": "This is a required field. Minimum 5 characters"
+  },
+  "firstAndSecond": "First and Last Name",
+  "get": "Get In Touch",
+  "message": "Message",
+  "messagePlaceholder": "Write your message...",
+  "phoneNum": "Phone Number",
+  "send": "Send Message",
+  "success": "Message successfully sended",
+  "thankYou": "Thank You!",
+  "wellBe": "We’ll Be In Touch Soon :)"
+}

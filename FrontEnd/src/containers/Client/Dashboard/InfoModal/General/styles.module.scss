@@ -1,0 +1,230 @@
+@import '@assets/styles/mixins';
+@import '@assets/styles/palette';
+
+.originBlock {
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+  padding: 0 1.5rem;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: $gray2Color;
+
+  @include breakpoint('md') {
+    flex-direction: column;
+    margin: 0 auto;
+
+    gap: 0.5rem;
+  }
+
+  .origin {
+    flex: 40%;
+    display: flex;
+    flex-direction: column;
+
+    @include breakpoint('md') {
+      width: 100%;
+    }
+
+    &.destination {
+      text-align: end;
+    }
+
+    .date {
+      @include textStyle(400, 0.75rem, 1.375rem);
+
+      color: $gray3Color;
+    }
+  }
+
+  .iconBlock {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+
+    .icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      background-color: $primaryColor;
+      color: $white;
+
+      @include onRTL {
+        rotate: 180deg;
+
+        @include breakpoint('md') {
+          rotate: 90deg;
+        }
+      }
+
+      @include breakpoint('md') {
+        rotate: 90deg;
+      }
+    }
+  }
+}
+.gpsTitle {
+  display: block;
+
+  color: $gray2Color;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.containerNumber {
+  display: block;
+  margin-bottom: 0.8rem;
+}
+.pencil {
+  cursor: pointer;
+  height: 14px;
+  width: 14px;
+}
+.gpsContainer {
+  display: block;
+  height: 300px;
+  margin-bottom: 1.5rem;
+
+  > div {
+    height: 100%;
+  }
+}
+
+.vesselName {
+  position: relative;
+  flex: 75%;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  margin-top: 2rem;
+
+  &.margin {
+    margin-bottom: 1.5rem;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -1.5rem;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #eeeef2;
+
+    @include onRTL {
+      right: 0;
+      left: initial;
+    }
+  }
+}
+
+.title {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  color: $gray2Color;
+}
+
+.divider {
+  height: 1px;
+  background-color: #eeeef2;
+  border-block-start: none;
+}
+.addStatus {
+  cursor: pointer;
+  @include textStyle(400, 1rem, 1.06rem);
+
+  color: $primaryColor;
+  border: none;
+  background: transparent;
+}
+.containerSteps {
+  position: relative;
+
+  padding: 23px 32px 17px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #eeeef2;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  width: 100%;
+  height: 100%;
+
+  @include breakpoint('xs') {
+    padding: 1rem;
+  }
+
+  &.collapsed {
+    height: 217px;
+    overflow: hidden;
+  }
+}
+
+.downArrow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 7px;
+
+  &.collapsed {
+    .icon {
+      rotate: 180deg;
+    }
+  }
+}
+.wrapperStep {
+  display: grid;
+  grid-template-columns: 0.25fr 1fr;
+  gap: 33px;
+  width: 100%;
+  background-color: #fff;
+  border: none;
+  .dateBlock {
+    text-align: end;
+    min-width: 80px;
+  }
+
+  .step {
+    position: relative;
+    text-align: start;
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: $primaryColor;
+      border-radius: 50%;
+      left: -19px;
+      top: 0;
+      z-index: 10;
+
+      @include onRTL {
+        left: 0;
+        right: -19px;
+      }
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 2px;
+      background-color: $primaryColor;
+      left: -15px;
+      z-index: 9;
+    }
+  }
+}

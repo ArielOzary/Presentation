@@ -1,0 +1,136 @@
+@import '@assets/styles/mixins';
+@import '@assets/styles/palette';
+
+.root {
+  :global {
+    .ant-drawer-content-wrapper {
+      width: 447px !important;
+
+      @include breakpoint('xs') {
+        width: 100% !important;
+      }
+    }
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  width: 447px;
+
+  > div > div:first-of-type {
+    padding: 1.5rem 1rem;
+  }
+
+  .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding-right: 0.5rem;
+      padding-left: 1.375rem;
+      margin-bottom: 2.625rem;
+
+      .title {
+        display: flex;
+        gap: 1rem;
+
+        .avatar {
+          width: 2.5rem;
+          height: 2.5rem;
+          background: #eeeef2;
+        }
+
+        .info {
+          @include textStyle(400, 0.75rem, 0.875rem);
+
+          display: flex;
+          flex-direction: column;
+          gap: 2px;
+          color: #b0b4c4;
+
+          .number {
+            @include textStyle(900, 1rem, 1.19rem);
+            text-transform: uppercase;
+            color: #434a5c;
+          }
+        }
+      }
+      .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #eeeef2;
+        border-radius: 0.375rem;
+      }
+      .icon {
+        cursor: pointer;
+        font-size: 1rem;
+        color: #aaaaaa;
+        height: 1rem;
+      }
+    }
+
+    .tabs {
+      height: 100%;
+      color: $gray3Color;
+
+      > div:first-child > div:first-child > div {
+        display: flex;
+        gap: 1.31rem !important;
+
+        > div {
+          @include textStyle(_, 1rem, 1.1rem);
+          margin-left: 0 !important;
+        }
+      }
+
+      :global(.ant-tabs-tabpane) {
+        height: calc(100% + 2.5rem);
+        margin: -1rem -1rem -1.5rem -1rem;
+      }
+
+      > div:last-child {
+        height: 100%;
+
+        > div:first-child {
+          height: 100%;
+        }
+      }
+    }
+    .chatTab {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+
+      .marker {
+        display: block;
+        width: 0.825rem;
+        height: 0.825rem;
+        border-radius: 50%;
+        background-color: tomato;
+      }
+    }
+  }
+}
+
+.dropdown {
+  width: 300px;
+
+  .item {
+    cursor: pointer;
+    padding: 0.25rem;
+    border: none;
+    background: none;
+
+    &:hover {
+      color: $primaryColor;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "address": "כתובת",
+  "chooseSupplier": "בחר ספק",
+  "click": "לחץ כדי להעלות",
+  "companyInformation": "פרטי חברה",
+  "contactPerson": "איש קשר",
+  "continue": "המשך",
+  "createNew": "צור חדש ",
+  "errors": {
+    "address": "כתובת חברה חסרה",
+    "companyName": "שם חברה חסר",
+    "name": "חסר שם",
+    "phone": "מספר טלפון חסר "
+  },
+  "openShipment": "פתח משלוח",
+  "title": "ספר לנו עוד על הספק",
+  "upload": "העלאה"
+}

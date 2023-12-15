@@ -1,0 +1,33 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.select {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+
+  .title {
+    @include textStyle(700, 0.9rem, 1rem);
+
+    text-transform: uppercase;
+    color: $gray3Color;
+  }
+
+  .selectInput {
+    width: 8.125rem;
+    height: 100%;
+
+    > div {
+      height: 2.44rem !important;
+      align-items: center;
+      border-radius: 4px;
+
+      input {
+        height: 2.44rem !important;
+      }
+    }
+  }
+}

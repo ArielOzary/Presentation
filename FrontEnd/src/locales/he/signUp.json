@@ -1,0 +1,84 @@
+{
+  "basicInfo": {
+    "air": "אוויר?",
+    "companyNameEnglish": "שם חברה באנגלית",
+    "customs": "עמילות?",
+    "email": "כתובת מייל",
+    "faxNumber": "מספר פקס",
+    "generalPhone": "טלפון כללי",
+    "ocean": "ימי?",
+    "payment": "תשלום?",
+    "title": "פרטים כלליים",
+    "vatNumber": "מספר ח.פ"
+  },
+  "companyInfo": {
+    "companyNameEnglish": "שם חברה באנגלית",
+    "companyNameHebrew": "שם חברה בעברית",
+    "confirmPassword": "ודא ססמא",
+    "industry": "תחום העסק",
+    "legalNumber": "מספר ח.פ",
+    "title": "פרטי חברה"
+  },
+  "companyLocation": {
+    "apartment": "דירה",
+    "comments": "הערות",
+    "customClearanceByAutolog": "האם עמילות דרך אוטולוג",
+    "inLandAddress": "כתובת להובלה יבשתית",
+    "inlandMadeByAutolog": "האם הובלות יבשתיות עם אוטולוג",
+    "insurance": "ביטוח?",
+    "mailingAddress": "כתובת לשליחת מיילים ועדכונים",
+    "portOfDestination": "נמל יעד מועדף",
+    "postalCode": "מיקוד",
+    "readAndAgreed": "קראתי והסכמתי ל",
+    "termsAndConditions": "תנאים",
+    "title": "מיקום חברה",
+    "whoIsInChargeOfInLand": "מי מבצע הובלות יבשתיות"
+  },
+  "contactInfo": {
+    "contactEmail": "כתובת מייל איש קשר",
+    "contactName": "שם איש קשר",
+    "jobTitle": "תפקיד",
+    "phoneNumber": "מספר טלפון",
+    "title": "פרטי איש קשר"
+  },
+  "contactsInfoForwarder": {
+    "airRep": "נציג אוויר",
+    "customsRep": "נציג עמילות",
+    "oceanRep": "נציג ימי",
+    "paymentRep": "נציג גבייה",
+    "titleInfo": "פרטי אנשי קשר"
+  },
+  "createYourFreeAccount": "צרו משתמש חינמי",
+  "errors": {
+    "basicInfo": {
+      "emailInvalid": "הדוא\"ל ליצירת קשר צריך להתאים לפורמט הדוא\"ל (xxxxx@xxxx.xx)",
+      "faxInvalid": "רק מספרים מותרים",
+      "generalNumberInvalid": "רק מספרים מותרים",
+      "nameEnInvalid": "שם החברה צריך להכיל רק אותיות באנגלית, מקפים ורווחים",
+      "vatNumberInvalid": "רק מספרים מותרים"
+    },
+    "companyInfo": {
+      "emailInvalid": "הדוא\"ל צריך להתאים לפורמט הדוא\"ל (xxxxx@xxxx.xx)",
+      "legalNumberInvalid": "מספר ח.פ צריך להכיל מספרים בלבד ",
+      "nameEnInvalid": "שם החברה צריך להכיל רק אותיות באנגלית, מקפים ורווחים",
+      "nameHeInvalid": "שם החברה צריך להכיל רק אותיות בעברית, מקפים ורווחים",
+      "passwordInvalid": "הסיסמה צריכה להכיל 6-12 סמלים ולכלול לפחות אות אחת גדולה, אות קטנה אחת וסמל אחד\n",
+      "passwordsDoNotMatch": "הסיסמאות אינן תואמות"
+    },
+    "companyLocation": {"onlyNumbers": "רק מספרים"},
+    "contactInfo": {
+      "contactNameInvalid": "שם איש הקשר צריך להכיל רק אותיות, רווחים, מקפים",
+      "emailInvalid": "הדוא\"ל ליצירת קשר צריך להתאים לפורמט הדוא\"ל (xxxxx@xxxx.xx)",
+      "phoneInvalid": "מספר הטלפון צריך להתאים לפורמט הבינלאומי (+x-xxx-xxx-xxxx)",
+      "positionInvalid": "כותרת המשרה צריכה להכיל רק אותיות, מספרים, מקפים ורווחים",
+      "positionMaxLen": "תואר המשרה צריך להיות פחות מ-100 סמלים"
+    },
+    "contactsInfoForwarder": {
+      "contactNameInvalid": "שם איש קשר",
+      "emailInvalid": "הדוא\"ל ליצירת קשר צריך להתאים לפורמט הדוא\"ל (xxxxx@xxxx.xx)",
+      "phoneInvalid": "מספר הטלפון צריך להתאים לפורמט הבינלאומי (+x-xxx-xxx-xxxx)"
+    }
+  },
+  "step": "שלב",
+  "tellUsAboutYourCompany": "ספרו לנו על החברה"
+}

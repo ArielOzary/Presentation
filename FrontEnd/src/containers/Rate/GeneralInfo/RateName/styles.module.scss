@@ -1,0 +1,21 @@
+@import '@assets/styles/palette';
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  .headerText {
+    color: $gray3Color;
+    font-size: 1.124rem;
+    font-family: 400;
+    margin-bottom: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .bodyText {
+    color: $gray2Color;
+    font-size: 0.875rem;
+    padding-bottom: 0.625rem;
+    font-weight: 700;
+  }
+}

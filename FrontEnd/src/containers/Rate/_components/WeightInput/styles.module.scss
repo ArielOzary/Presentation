@@ -1,0 +1,13 @@
+.container {
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+
+  .input {
+    width: 9.5rem;
+  }
+
+  .errorText {
+    font-size: 12px;
+    color: tomato;
+  }
+}

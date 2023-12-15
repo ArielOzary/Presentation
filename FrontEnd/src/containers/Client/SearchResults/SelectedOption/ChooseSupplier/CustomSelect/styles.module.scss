@@ -1,0 +1,123 @@
+@import '@assets/styles/mixins';
+@import '@assets/styles/palette';
+
+.trigger {
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+
+  width: 60%;
+  height: 4rem;
+
+  margin: 0;
+  padding: 0 0.6875rem 0 1.49rem;
+
+  color: #4f4f4f;
+  background-color: #ffffff;
+  cursor: pointer;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  &:hover {
+    border-color: #9687e0;
+  }
+
+  @include breakpoint('md') {
+    width: 100%;
+    height: 3rem;
+  }
+
+  .arrow {
+    font-size: 1.2rem;
+    color: $primaryColor;
+    transition: transform 0.3s;
+
+    &.open {
+      transform: rotateZ(180deg);
+      transition: transform 0.3s;
+    }
+  }
+}
+
+.dropdown {
+  color: #4f4f4f;
+  background-color: #ffffff;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+    0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  padding: 4px;
+
+  .createSupplierBtn {
+    @include textStyle(400, 1rem, 1.19rem);
+    text-align: start;
+    margin-top: 4px;
+    padding: 1.06rem 1.25rem !important;
+    width: 100%;
+    height: fit-content;
+    border-radius: 0;
+    background-color: #fff;
+    opacity: 1;
+    transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+}
+
+.option {
+  cursor: pointer;
+  display: flex !important;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  padding: 0.75rem 0.81rem;
+  width: 100%;
+  background: none;
+  border: none;
+
+  @include breakpoint('md') {
+    padding: 0.5rem 0.81rem;
+  }
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.04);
+  }
+
+  &.value {
+    padding-left: 0;
+
+    &:hover {
+      background: none;
+    }
+  }
+
+  &.active {
+    background: #f4f0ff;
+  }
+
+  .fullName {
+    @include textStyle(400, 1rem, 1.19rem);
+    display: block;
+    margin-bottom: 0.25rem;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #4f4f4f;
+
+    @include breakpoint('md') {
+      @include textStyle(400, 0.75rem, 0.875rem);
+    }
+  }
+
+  .companyName {
+    @include textStyle(400, 0.75rem, 0.875rem);
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: $gray3Color;
+  }
+}

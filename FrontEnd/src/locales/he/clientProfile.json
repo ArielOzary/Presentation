@@ -1,0 +1,14 @@
+{
+  "addSupplier": "הוסף ספק",
+  "companyInfoUpdated": "פרטי חברה עודכנו",
+  "confirmToDeleteSupplier": "האם לאשר מחיקת ספק?",
+  "deleteSupplier": "מחק את הספק",
+  "filesSuccessfullyAdded": "מסמכים נוספו בהצלחה",
+  "personalInfo": "מידע אישי",
+  "personalInfoUpdated": "מידע אישי עודכן",
+  "supplier": "ספק",
+  "supplierInfo": "פרטי ספק",
+  "supplierSuccessfullyDeleted": "הספק נמחק בהצלחה",
+  "supplierSuccessfullyUpdated": "הספק נוסף בהצלחה",
+  "supplierTitle": "איש קשר"
+}

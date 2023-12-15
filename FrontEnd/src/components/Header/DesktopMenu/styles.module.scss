@@ -1,0 +1,23 @@
+@import '@assets/styles/mixins';
+@import '@assets/styles/palette';
+
+.menu {
+  display: flex;
+  gap: 4rem;
+
+  @include breakpoint('xl') {
+    gap: 2rem;
+  }
+
+  a {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    text-decoration: none;
+    color: $gray3Color;
+
+    &.active {
+      color: $primaryColor;
+      font-weight: 700;
+    }
+  }
+}

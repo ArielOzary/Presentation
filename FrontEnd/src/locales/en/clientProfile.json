@@ -1,0 +1,14 @@
+{
+  "addSupplier": "Add Supplier",
+  "companyInfoUpdated": "Company Info Updated",
+  "confirmToDeleteSupplier": "Are you sure to delete this Supplier?",
+  "deleteSupplier": "Delete the Supplier",
+  "filesSuccessfullyAdded": "Files Successfully Added",
+  "personalInfo": "Personal Info",
+  "personalInfoUpdated": "Personal info Updated",
+  "supplier": "Supplier",
+  "supplierInfo": "Supplier Info",
+  "supplierSuccessfullyDeleted": "Supplier Successfully Deleted",
+  "supplierSuccessfullyUpdated": "Supplier Successfully Updated",
+  "supplierTitle": "Person of Contact"
+}

@@ -1,0 +1,72 @@
+@import '@assets/styles/mixins';
+@import '@assets/styles/palette';
+
+.stepper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    @include breakpoint('lg') {
+        display: none;
+    }
+
+    .step {
+        display: flex;
+        align-items: center;
+        gap: 1.25rem;
+        position: relative;
+
+        .point {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 2.5rem;
+            height: 2.5rem;
+            border: 2px solid $gray4Color;
+            border-radius: 50%;
+            font-size: 1.25rem;
+            color: $gray4Color;
+        }
+
+        .label {
+            font-size: 1.25rem;
+            color: $gray4Color;
+        }
+
+        &:not(:last-child):after {
+            content: '';
+            position: absolute;
+            display: block;
+            top: 100%;
+            left: calc(1.25rem - 1px);
+            border: 1px solid $gray4Color;
+            height: 3rem;
+
+            @include onRTL {
+                left: initial;
+                right: calc(1.25rem - 1px);
+            }
+        }
+
+        &.complete {
+            .label {
+                color: $gray3Color;
+            }
+
+            .point {
+                border: 2px solid $gray3Color;
+            }
+        }
+
+        &.current {
+            .label {
+                color: $primaryColor;
+            }
+
+            .point {
+                color: $primaryColor;
+                border: 2px solid $primaryColor;
+            }
+        }
+    }
+}

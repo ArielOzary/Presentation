@@ -1,0 +1,28 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.formWrapper {
+  height: 24rem;
+
+  .title {
+    @include textStyle(400, 1.125rem, 1.31rem);
+
+    display: flex;
+    align-items: center;
+    gap: 0.687rem;
+    margin-bottom: 0.81rem;
+    color: $gray2Color;
+  }
+
+  .radioCalculation {
+    margin-bottom: 1.69rem;
+
+    label:first-child {
+      margin-right: 1.31rem;
+    }
+  }
+
+  .scrollBar {
+    height: 100%;
+  }
+}

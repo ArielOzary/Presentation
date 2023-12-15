@@ -1,0 +1,19 @@
+{
+  "back": "חזרה לדשבורד",
+  "companyName": "שם חברה",
+  "contactInfo": "פרטי איש קשר",
+  "contactUs": "צור קשר",
+  "errors": {
+    "email": "הדוא\"ל ליצירת קשר צריך להתאים לפורמט הדוא\"ל (xxxxx@xxxx.xx)",
+    "message": "זהו שדה חובה. מינימום 5 תווים"
+  },
+  "firstAndSecond": "שם פרטי ומשפחה",
+  "get": "השארו בקשר",
+  "message": "הודעה",
+  "messagePlaceholder": "הוסף הודעה",
+  "phoneNum": "מספר טלפון",
+  "send": "שלח הודעה",
+  "success": "ההודעה נשלחה בהצלחה",
+  "thankYou": "תודה רבה!",
+  "wellBe": "ניהיה בקשר בקרוב"
+}

@@ -1,0 +1,24 @@
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": false,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "bracketSpacing": true,
+  "singleQuote": true,
+  "endOfLine": "auto",
+  "importOrder": [
+    "^react$",
+    "<THIRD_PARTY_MODULES>",
+    "^components/(.*)$",
+    "^containers/(.*)$",
+    "^(.|..)\\/.*(?<!css)$",
+    "^(fetchers|models|stores)(/(.*))?$",
+    "^utils/(.*)$",
+    "^(.*).(scss|css)$",
+    "^assets/(.*)$"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}

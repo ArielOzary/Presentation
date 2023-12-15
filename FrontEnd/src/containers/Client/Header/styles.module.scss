@@ -1,0 +1,41 @@
+@import '@assets/styles/mixins';
+@import '@assets/styles/palette';
+
+.header {
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.15);
+  padding: 1.25rem 2.5rem;
+  gap: 4rem;
+
+  @include breakpoint('md') {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  &.bgc {
+    background: #e9e8f3;
+  }
+
+  .nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include breakpoint('lg') {
+      flex-direction: row-reverse;
+      justify-content: start;
+      gap: 1rem;
+    }
+
+    @include breakpoint('md') {
+      gap: 0;
+    }
+  }
+
+  .group {
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,0 +1,21 @@
+@import '@assets/styles/mixins';
+
+.wrapper {
+  display: flex;
+  gap: 0.5rem;
+
+  .select {
+    width: 7.5rem;
+    max-width: 7.5rem;
+    min-width: 7.5rem;
+  }
+
+  > span:first-of-type {
+    @include onRTL {
+      input {
+        direction: ltr;
+        text-align: right;
+      }
+    }
+  }
+}

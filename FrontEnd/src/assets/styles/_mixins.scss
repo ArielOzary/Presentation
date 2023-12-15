@@ -1,0 +1,35 @@
+@import './breakpoints';
+
+@mixin breakpoint($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+    @media (max-width: $breakpoint-value) {
+      @content;
+    }
+  }
+}
+
+@mixin onLandscape {
+  @media (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin onPortrait {
+  @media (orientation: portrait) {
+    @content;
+  }
+}
+
+@mixin onRTL {
+  [dir='rtl'] & {
+    @content;
+  }
+}
+
+@mixin textStyle($weight: 400, $size: 1rem, $height: 100%) {
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+}

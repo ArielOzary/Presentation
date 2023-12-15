@@ -1,0 +1,15 @@
+.wrapper {
+  margin-top: 5px;
+
+  .item {
+    overflow: hidden;
+    max-height: 10000px;
+    transition: max-height 0.5s cubic-bezier(1, 0, 1, 0);
+    transform: translateY(-10px);
+
+    &.collapsed {
+      max-height: 0;
+      transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+    }
+  }
+}

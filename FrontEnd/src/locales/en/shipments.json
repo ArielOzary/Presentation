@@ -1,0 +1,29 @@
+{
+  "addShipmentStatusError": "Shipment already delivered",
+  "impossibleToDelete": "Impossible to Delete",
+  "shipmentDeletedSuccessfully": "Shipment deleted successfully",
+  "shipmentTypes": {"air": "Air", "ocean": "Ocean", "type": "Type"},
+  "sortOptions": {
+    "creationDate": "Creation date",
+    "lastAdded": "Last Added",
+    "lastUpdated": "Last Updated",
+    "relevant": "Relevant",
+    "status": "Status"
+  },
+  "statusSuccessfullyAdded": "Status Successfully Added",
+  "statusSuccessfullyChanged": "Status successfully Changed",
+  "statusSuccessfullyDeleted": "Status successfully Deleted",
+  "statuses": {
+    "booking": "Booking",
+    "clearance": "Clearance",
+    "delayed": "Delayed",
+    "delivered": "Delivered",
+    "estimatedTimeOfArrival": "Estimated Time of Arrival",
+    "estimatedTimeOfDeparture": "Estimated Time of Departure",
+    "goodsAreOnBoardOrActualDeparture": "Goods are on Board / Actual Departure",
+    "noticeOfArrival": "Notice of Arrival",
+    "open": "Open"
+  },
+  "successfullyCreated": "Shipment successfully created",
+  "sureToWantDeleteShipment": "Are you sure you want to delete the shipment, this action is irreversible?"
+}

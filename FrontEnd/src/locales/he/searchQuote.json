@@ -1,0 +1,82 @@
+{
+  "destination": {"label": "לאן אתם שולחים?", "title": "יעד"},
+  "goods": {
+    "dangerous": "מסוכן",
+    "descrOfItems": "תאור הטובין",
+    "enterNumber": "הוסף מספר UN",
+    "errors": {
+      "goodsValueError": "ערך הטובין חסר",
+      "limited": "מוגבל ל 50 סמלים",
+      "shippingDateError": "חסר תאריך משלוח",
+      "shippingItemsError": "חסר תאור פריטים",
+      "unNumberError": "הזן מספר UN"
+    },
+    "label": "מהם הטובין?",
+    "shippingDate": "תאריך הובלה",
+    "title": "טובין",
+    "unNumber": "מספר UN",
+    "value": "ערך"
+  },
+  "hero": {
+    "text": "השוו, הזמינו ונהלו את המטענים שלכם בין ספקי הלוגיסטיקה המובילים בעולם, הכל בפלטפורמה אחת.",
+    "title": "כל המשלוחים שלך מנוהלים במקום אחד!\n"
+  },
+  "load": {
+    "addBtn": "הוסף מטען נוסף",
+    "fclForm": {
+      "alert": "\nניתן לשלוח מכולות לכתובת עסקית או ממנה רק אם יש רציף טעינה",
+      "containers": "מכולות"
+    },
+    "fclTitle": "גודל מכולה",
+    "label": "איך המשלוח ארוז",
+    "lclForm": {
+      "alert": "חישוב לפי המשלוח הכולל פחות מדויק ולכן סביר יותר שיגרור תשלום נוסף עבור מידות לא מדויקות או חורגות.",
+      "boxes": "קופסאות\\ארגזים",
+      "dimensions": "מידות",
+      "error": {
+        "fillDimensions": "הוסיפו את מידות המשלוח",
+        "fillTotalVolume": "הוסיפו את נפח המשלוח",
+        "fillTotalWeight": "הוסיפו את משקל המשלוח",
+        "fillUnits": "הוסיפו את מספר היחידות",
+        "fillWeight": "הוסיפו את משקל המשלוח",
+        "minValue": "ערך מינימלי 1"
+      },
+      "ofUnits": "מתוך יחידות",
+      "packageLabel": "סוג אריזה",
+      "pallets": "משטחים",
+      "paramsPerUnit": "אורךXרוחבXגובה לפי יחידה ",
+      "perUnit": "לפי יחידה",
+      "volume": "נפח"
+    },
+    "lclTitle": "גודל משלוח חלקי",
+    "title": "מטען",
+    "totalShipment": "חישוב לפי סה\"כ המשלוח",
+    "unitType": "חישוב לפי סוג יחידה"
+  },
+  "origin": {
+    "city": "עיר",
+    "dropdownTitle": "נמל",
+    "knownSupplier": "האם הספק שלך מאושר בטחון\\ספק מוכר?",
+    "label": "מאיפה אתה שולח?",
+    "title": "מוצא",
+    "zipCode": "מיקוד"
+  },
+  "recentSearches": "חיפושים אחרונים",
+  "refreshShippingDateInfo": "תאריך המשלוח הקודם כבר חלף. אנא רענן אותו בסעיף מוצרים",
+  "shippingType": {
+    "customs": "מכס",
+    "dropdownTitle": "ספרו לנו על המשלוח",
+    "error": "בחרו אחד מהבאים על מנת להמשיך",
+    "incoterms": "תנאי מכר",
+    "incotermsTooltip": {
+      "CIF": "CIF - Cost Insurance and Freight עלות+משלוח+ ביטוח (הכנס נמל ביעד)",
+      "DDP": "DDP - Delivered Duty Paid שולח אחראי על המשלוח עד דלת הלקוח (הכנס כתובת מסירה)",
+      "EXW": "EXW - מקבח אחראי על כל המשלוח (הכנס כתובת איסוף)",
+      "FOB": "FOB - משוחרר יצוא על החברת ספנות\\תעופה (הכניסו שם נמל מוצא)"
+    },
+    "insurance": "ביטוח",
+    "label": "ספרו לנו על המשלוח",
+    "shipment": "משלוח",
+    "title": "סוג משלוח"
+  }
+}

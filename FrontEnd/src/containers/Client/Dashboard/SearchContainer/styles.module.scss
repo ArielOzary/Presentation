@@ -1,0 +1,66 @@
+@import '@assets/styles/mixins';
+@import '@assets/styles/palette';
+
+.searchBlock {
+  position: relative;
+  flex: 75%;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    width: 42%;
+    height: 1px;
+    background-color: #eeeef2;
+
+    @include onRTL {
+      right: 0;
+      left: initial;
+    }
+  }
+}
+
+.label {
+  @include textStyle(700, 0.875rem, 1rem);
+  white-space: nowrap;
+  color: $gray3Color;
+}
+.inputBlock {
+  position: relative;
+  max-width: 22.8rem;
+  width: 100%;
+
+  .input {
+    height: 2.4rem;
+    border-radius: 0.25rem;
+  }
+
+  .btn {
+    position: absolute;
+    right: 0.25rem;
+    top: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.7rem;
+    height: 1.875rem;
+
+    @include onRTL {
+      left: 0.25rem;
+      right: initial;
+    }
+
+    .icon {
+      font-size: 0.875rem;
+
+      @include onRTL {
+        rotate: 180deg;
+      }
+    }
+  }
+}

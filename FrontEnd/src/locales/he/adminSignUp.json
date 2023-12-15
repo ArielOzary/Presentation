@@ -1,0 +1,11 @@
+{
+  "companyName": "שם חברה",
+  "errors": {
+    "faxInvalid": "מספר פקס לא נכון, יש לתקן לפי הפורמט הבינלאומי (+x-xxx-xxx-xxxx)"
+  },
+  "fax": "מספר פקס",
+  "personOfContact": "איש קשר",
+  "successMessage": "הוראות ופרטי הרשמה נשלחו למייל",
+  "welcomeText": "ממש עוד כמה רגעים ותוכלו לגשת למחירי השוק",
+  "welcomeToAutolog": "ברוכים הבאים לאוטולוג"
+}

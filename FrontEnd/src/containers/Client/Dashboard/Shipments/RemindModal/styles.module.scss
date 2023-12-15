@@ -1,0 +1,33 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.wrapper {
+  width: 100%;
+  background: #fff;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+
+  .dateBlock {
+    width: 100%;
+
+    > div:last-child {
+      @include breakpoint('sm') {
+        width: 100%;
+      }
+
+      > div {
+        display: inline-flex;
+        flex-direction: row-reverse;
+        gap: 0.5rem;
+
+        input {
+          color: $gray3Color;
+        }
+
+        span {
+          color: $gray2Color;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.wrapper {
+  .btn {
+    @include textStyle(_, 1.16rem, 1.31rem);
+    height: 100%;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 9.30811px;
+  }
+
+  @include breakpoint('sm') {
+    margin-top: 1rem;
+  }
+}
+
+.modal {
+  .form {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}

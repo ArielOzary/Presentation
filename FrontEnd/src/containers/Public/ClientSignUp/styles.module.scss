@@ -1,0 +1,99 @@
+@import '@assets/styles/mixins';
+@import '@assets/styles/palette';
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    margin: auto 16%;
+
+    @include breakpoint('lg') {
+        margin: auto 2.5rem;
+    }
+    
+    .icon {
+        margin: 0 auto;
+        width: 74%;
+        height: auto;
+
+        @include breakpoint('lg') {
+            display: none;
+        }
+    }
+
+    .title {
+        align-self: flex-start;
+        margin-top: 2.3rem;
+        font-size: 3rem;
+        line-height: 4.5rem;
+        font-weight: 700;
+        background: linear-gradient(93.37deg, #363441 28.05%, #6C5DD3 44.33%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        @include breakpoint('sm') {
+            font-size: 2rem;
+            line-height: 3rem;
+        }
+    }
+
+    .subtitle {
+        margin-bottom: 3rem;
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        color: $grayColor;
+        font-weight: 400;
+
+        @include breakpoint('sm') {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    margin: 6rem 5rem 2rem 5rem;
+    width: calc(100% - 10rem);
+
+    @include breakpoint('md') {
+        margin: 2rem 2rem 2rem 2rem;
+        width: calc(100% - 4rem);
+    }
+
+    .title {
+        font-size: 2rem;
+        line-height: 3.5rem;
+        font-weight: 700;
+        color: $gray2Color;
+
+        @include breakpoint('sm') {
+            font-size: 2rem;
+            line-height: 3rem;
+        }
+
+        @include breakpoint('xs') {
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
+    }
+
+    .subtitle {
+        margin-top: 1.125rem;
+        margin-bottom: 1.5rem;
+        font-size: 1.28rem;
+        line-height: 1.57rem;
+        font-weight: 700;
+        color: $gray2Color;
+
+        @include breakpoint('sm') {
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+    }
+
+    .error {
+        margin-bottom: 1.5rem;
+    }
+}

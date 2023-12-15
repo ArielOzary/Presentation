@@ -1,0 +1,10 @@
+@import '@assets/styles/palette';
+
+.button{
+    align-self: end;
+    background-color:$primaryColor ;
+    color: #F2F2F2;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}

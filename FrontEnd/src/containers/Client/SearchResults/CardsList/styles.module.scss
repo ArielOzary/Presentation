@@ -1,0 +1,75 @@
+@import '@assets/styles/mixins';
+@import '@assets/styles/palette';
+
+.wrapper {
+  flex: 75%;
+
+  .header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 1.06rem;
+
+    @include breakpoint('sm') {
+      flex-direction: column-reverse;
+      gap: 0.94rem;
+    }
+
+    .results {
+      @include textStyle(400, 0.93rem, 1.06rem);
+      margin-right: auto;
+      color: $gray3Color;
+
+      @include onRTL {
+        margin-right: 0;
+        margin-left: auto;
+      }
+    }
+
+    .filters {
+      display: flex;
+      gap: 0.94rem;
+
+      .selectInput {
+        height: 100%;
+
+        > div {
+          height: 2.44rem !important;
+          align-items: center;
+          border-radius: 4px;
+
+          input {
+            height: 2.44rem !important;
+          }
+        }
+      }
+    }
+  }
+
+  .list {
+    height: 100%;
+  }
+
+  .alert {
+    font-size: 1.125rem;
+    margin-bottom: 1.06rem;
+  }
+
+  .noResults {
+    font-size: 1.31rem;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5rem;
+    width: 70%;
+    color: $gray3Color;
+
+    .btn {
+      font-weight: 700;
+      display: block;
+      margin: auto;
+      margin-top: 1rem;
+    }
+  }
+}

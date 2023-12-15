@@ -1,0 +1,10 @@
+{
+  "errors": {
+    "emailInvalid": "כתובת המייל לא תקינה",
+    "emailRequired": "כתובת מייל נדרשת"
+  },
+  "forgotPassword": "שכחת סיסמא?",
+  "login": "כניסה",
+  "momentsAway": "רק כמה רגעים ותוכלו לגשת\nלמחירים המדויקים ביותר בשוק!",
+  "welcomeBack": "שמחים שחזרת :)"
+}

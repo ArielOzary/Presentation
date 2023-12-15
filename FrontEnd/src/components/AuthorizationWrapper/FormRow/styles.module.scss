@@ -1,0 +1,21 @@
+@import '@assets/styles/mixins';
+
+.row {
+  display: flex;
+  gap: 4rem;
+
+  @include breakpoint('sm') {
+      flex-direction: column;
+      gap: 0;
+  }
+
+  > div {
+      flex: 1;
+      max-width: calc(50% - 2rem);
+
+      @include breakpoint('sm') {
+          max-width: initial;
+          width: 100%;
+      }
+  }
+}

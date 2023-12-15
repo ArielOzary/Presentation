@@ -1,0 +1,50 @@
+@import '@assets/styles/mixins';
+@import '@assets/styles/palette';
+
+.header {
+  display: flex;
+  background: $white;
+  box-shadow: 0px 0px 1.06rem rgba(0, 0, 0, 0.15);
+  padding: 1.25rem 2.5rem;
+  gap: 4rem;
+
+  @include breakpoint('md') {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include breakpoint('lg') {
+      flex-direction: row-reverse;
+      justify-content: start;
+      gap: 1rem;
+    }
+
+    @include breakpoint('md') {
+      gap: 0;
+    }
+  }
+
+  .controls {
+    display: flex;
+    align-items: center;
+  }
+}
+.item {
+  font-size: 1rem;
+  display: block;
+  padding: 0.5rem 0;
+
+  &.active {
+    color: $primaryColor !important;
+    font-weight: 700 !important;
+  }
+  .sizeIcon{
+    font-size: 1.25rem;
+  }
+}

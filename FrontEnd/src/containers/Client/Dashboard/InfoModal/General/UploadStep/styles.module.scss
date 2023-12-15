@@ -1,0 +1,112 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.wrapperStep {
+  display: grid;
+  grid-template-columns: 0.25fr 1fr;
+  gap: 33px;
+  width: 100%;
+  background-color: #fff;
+  border: none;
+
+  .dateBlock {
+    text-align: end;
+    min-width: 80px;
+
+    .date {
+      font-size: 1rem;
+      color: $gray3Color;
+    }
+    .time {
+      color: $gray4Color;
+      font-size: 0.75rem;
+    }
+  }
+
+  .iconClose {
+    position: absolute;
+    font-size: 18px;
+    right: -30px;
+    top: 6px;
+
+    @include breakpoint('md') {
+      right: -10px;
+    }
+  }
+
+  .step {
+    position: relative;
+    text-align: start;
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: $primaryColor;
+      border-radius: 50%;
+      left: -19px;
+      top: 0;
+      z-index: 10;
+
+      @include onRTL {
+        left: 0;
+        right: -19px;
+      }
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 2px;
+      background-color: $primaryColor;
+      left: -15px;
+      z-index: 9;
+
+      @include onRTL {
+        left: 0;
+        right: -15px;
+      }
+    }
+
+    .destination {
+      font-size: 0.75rem;
+      display: block;
+      margin-top: 5px;
+      margin-bottom: 0.875rem;
+      color: $gray4Color;
+    }
+
+    .infoTitle {
+      font-weight: 700;
+      margin-bottom: 4px;
+      color: $gray2Color;
+    }
+
+    .textArea {
+      width: 100%;
+      margin-bottom: 2.125rem;
+    }
+
+    .editBtns {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2.125rem;
+
+      .editBtn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80px;
+      }
+    }
+  }
+  .select {
+    width: 100%;
+
+    @include breakpoint('md') {
+      width: 80%;
+    }
+  }
+}

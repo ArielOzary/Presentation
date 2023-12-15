@@ -1,0 +1,16 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.wrapper {
+  .title {
+    @include textStyle(_, 1.5rem, 1.375rem);
+    margin-bottom: 1.25rem;
+    color: $gray3Color;
+  }
+
+  .btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 3.625rem;
+  }
+}

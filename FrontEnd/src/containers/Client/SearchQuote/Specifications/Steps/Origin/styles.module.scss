@@ -1,0 +1,23 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.wrapper {
+  width: 31.5rem;
+
+  @include breakpoint('lg') {
+    width: initial;
+  }
+
+  .title {
+    @include textStyle(400, 1.125rem, 1.31rem);
+
+    margin-bottom: 0.81rem;
+    color: $gray2Color;
+  }
+
+  form {
+    label {
+      font-weight: 700;
+    }
+  }
+}

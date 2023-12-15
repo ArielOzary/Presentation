@@ -1,0 +1,11 @@
+{
+  "companyName": "Company Name",
+  "errors": {
+    "faxInvalid": "Fax should conform to international format (+x-xxx-xxx-xxxx)"
+  },
+  "fax": "Fax Number",
+  "personOfContact": "Person of Contact",
+  "successMessage": "Sign-in instructions were sent to the email address",
+  "welcomeText": "You’re just moments away from getting the\nmost accurate prices on the market!",
+  "welcomeToAutolog": "Welcome to Autolog!"
+}

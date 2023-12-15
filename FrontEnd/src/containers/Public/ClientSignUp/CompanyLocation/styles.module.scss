@@ -1,0 +1,16 @@
+@import '@assets/styles/mixins';
+@import '@assets/styles/palette';
+
+.form {
+  .comment {
+    width: calc(100% - 17rem);
+
+    @include breakpoint('lg') {
+      width: 100%;
+    }
+  }
+
+  .termsCheckbox {
+    white-space: break-spaces;
+  }
+}

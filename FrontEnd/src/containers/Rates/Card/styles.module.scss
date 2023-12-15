@@ -1,0 +1,82 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+.container {
+  width: 100%;
+  background: #fff;
+  padding: 1.56rem 2rem;
+  position: relative;
+
+  .header {
+    display: flex;
+    gap: 1.313rem;
+    align-items: center;
+
+    .title {
+      font-size: 1.563rem;
+      font-weight: 700;
+    }
+
+    .avatar {
+      width: 3.688rem;
+      height: 3.688rem;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.625rem !important;
+      background: rgba($primaryColor, 0.2);
+      color: $gray2Color;
+    }
+  }
+
+  .description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1.5rem;
+
+    @include breakpoint('lg') {
+      flex-wrap: wrap;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .title {
+      @include textStyle(_, 0.9rem, 1.86rem);
+      color: $gray3Color;
+      white-space: nowrap;
+
+      @include breakpoint('lg') {
+        @include textStyle(_, 0.7rem, 1.8rem);
+      }
+    }
+
+    .info {
+      @include textStyle(700, 1rem, 1.86rem);
+      color: $gray2Color;
+      white-space: nowrap;
+
+      @include breakpoint('lg') {
+        @include textStyle(700, 0.9rem, 1.86rem);
+      }
+    }
+  }
+
+  .editBtn {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+
+    @include onRTL {
+      right: initial;
+      left: 0.5rem;
+    }
+
+    svg path {
+      fill: $primaryColor;
+    }
+  }
+}

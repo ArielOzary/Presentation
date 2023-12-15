@@ -1,0 +1,86 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.wrapper {
+  width: 100%;
+  padding: 1.56rem 2rem;
+  padding-right: 1.19rem;
+  margin-bottom: 2.375rem;
+  background: $white;
+  min-height: 12rem;
+
+  @include breakpoint('lg') {
+    padding: 1.5rem;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .title {
+      display: flex;
+      align-items: center;
+      gap: 1.31rem;
+
+      .avatar {
+        display: flex;
+        align-items: center;
+        width: 3.75rem;
+        min-width: 3.75rem;
+        height: 3.75rem;
+        font-weight: 700;
+        font-size: 1.625rem !important;
+        line-height: 1.875rem !important;
+        background: rgba($primaryColor, 0.2);
+        color: $primaryColor;
+      }
+
+      .companyName {
+        font-weight: 700;
+        font-size: 1.6rem;
+        margin-bottom: 0;
+
+        @include breakpoint('lg') {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+
+  .description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1.5rem;
+
+    @include breakpoint('lg') {
+      flex-wrap: wrap;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .title {
+      @include textStyle(_, 0.9rem, 1.86rem);
+      color: $gray3Color;
+      white-space: nowrap;
+
+      @include breakpoint('lg') {
+        @include textStyle(_, 0.7rem, 1.8rem);
+      }
+    }
+    .info {
+      @include textStyle(700, 1rem, 1.86rem);
+      color: $gray2Color;
+      white-space: nowrap;
+      display: block;
+
+      @include breakpoint('lg') {
+        @include textStyle(700, 0.9rem, 1.86rem);
+      }
+    }
+  }
+}

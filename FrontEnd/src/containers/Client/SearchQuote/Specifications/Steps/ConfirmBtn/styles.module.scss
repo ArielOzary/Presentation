@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+
+  .btn {
+    display: block;
+    width: 8.31rem;
+    height: 2.375rem;
+  }
+}

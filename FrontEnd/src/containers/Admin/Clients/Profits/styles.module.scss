@@ -1,0 +1,61 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.rejected {
+  background-color: #d9d9d9;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+
+  .icon {
+    font-size: 1.375rem;
+    color: $primaryColor;
+  }
+}
+.title {
+  @include textStyle(700, 1.1rem, 1.375rem);
+  color: $gray2Color;
+}
+
+.subTitle {
+  margin-top: 3.125rem;
+}
+
+.btnsBlock {
+  margin-top: 2rem;
+  margin-bottom: 0;
+
+  .rejected {
+    @include textStyle(_, 1.16rem, 1.31rem);
+
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .btns {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.editToggleBtn {
+  position: absolute;
+  top: 1rem;
+  right: 1.6rem;
+  font-size: 1.375rem !important;
+  color: $primaryColor;
+  padding: 0.25rem !important;
+
+  @include onRTL {
+    right: initial;
+    left: 1.6rem;
+  }
+}

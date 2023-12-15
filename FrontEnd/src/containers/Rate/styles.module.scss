@@ -1,0 +1,61 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.generalInfo {
+  min-height: 120vh;
+}
+
+.charges {
+  margin-top: 7rem;
+
+  @include breakpoint('md') {
+    margin-top: 24.75rem;
+  }
+}
+
+.headerText {
+  font-size: 2rem;
+  color: $gray3Color;
+}
+
+.newRateText {
+  @extend .headerText;
+
+  padding-top: 4.25rem;
+}
+
+.generalInfoText {
+  color: $gray2Color;
+  font-weight: 700;
+  font-size: 1.25rem;
+  padding-top: 2.5rem;
+}
+
+.boxGeneral {
+  display: flex;
+  background-color: white;
+  border-radius: 0.375rem;
+  align-items: center;
+  margin-top: 0.625rem;
+}
+
+.newRate {
+  @extend .boxGeneral;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 70px;
+  border: 1px solid #d9d9d9;
+  border-radius: 0;
+  z-index: 1;
+
+  @include breakpoint('md') {
+    top: 62px;
+  }
+}
+
+.loading {
+  display: block;
+  margin: 30vh auto;
+}

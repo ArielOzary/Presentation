@@ -1,0 +1,23 @@
+@import '@assets/styles/palette';
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  .textHeader {
+    color: $gray3Color;
+    font-size: 1.125rem;
+  }
+
+  .textBody {
+    color: $gray2Color;
+    font-size: 0.875rem;
+    font-weight: 700;
+    padding-bottom: 0.625rem;
+    padding-top: 1.063rem;
+  }
+
+  .selectItem {
+    margin-bottom: 0.5rem;
+  }
+}

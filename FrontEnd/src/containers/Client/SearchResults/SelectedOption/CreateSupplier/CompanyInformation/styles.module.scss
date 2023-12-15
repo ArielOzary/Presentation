@@ -1,0 +1,13 @@
+@import '@assets/styles/mixins';
+@import '@assets/styles/palette';
+
+.title {
+  @include textStyle(700, 1.125rem, 1.375rem);
+
+  margin-bottom: 0.625rem;
+  color: $gray2Color;
+}
+
+.btn {
+  margin-top: 5.625rem;
+}

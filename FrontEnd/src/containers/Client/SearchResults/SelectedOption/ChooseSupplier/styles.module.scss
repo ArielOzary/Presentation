@@ -1,0 +1,54 @@
+@import '@assets/styles/mixins';
+@import '@assets/styles/palette';
+.select {
+  width: 60%;
+
+  @include breakpoint('md') {
+    width: 100%;
+  }
+
+  > div {
+    height: auto !important;
+  }
+
+  :global {
+    .ant-select-selector .ant-select-selection-item {
+      &:after {
+        display: none;
+      }
+    }
+  }
+}
+.title {
+  @include textStyle(400, 2rem, 3.125rem);
+  margin-bottom: 0;
+  color: $gray3Color;
+
+  @include breakpoint('md') {
+    @include textStyle(400, 1.5rem, 1.75rem);
+  }
+}
+.option {
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem 0.81rem;
+
+  .fullName {
+    @include textStyle(400, 1rem, 1.19rem);
+    display: block;
+    margin-bottom: 0.25rem;
+    color: $gray2Color;
+  }
+  .companyName {
+    @include textStyle(400, 0.75rem, 0.875rem);
+    color: $gray3Color;
+  }
+}
+.addBtn {
+  @include textStyle(400, 1rem, 1.19rem);
+  text-align: start;
+  padding: 1.06rem 1.25rem !important;
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}

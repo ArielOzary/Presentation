@@ -1,0 +1,134 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.container {
+  padding: 1.5rem 0;
+  background-color: transparent;
+  border: 0;
+  text-align: left;
+  flex: 1;
+
+  @include breakpoint('lg') {
+    width: 100%;
+    padding: 1rem 0;
+    border-bottom: 1px solid #d3d3d4;
+  }
+
+  @include onRTL {
+    text-align: right;
+  }
+
+  &.fullFilled {
+    cursor: pointer;
+
+    &:hover {
+      background: rgba($color: #000000, $alpha: 0.025);
+    }
+  }
+
+  .border {
+    padding: 0 1.5rem;
+    border-right: 1px solid #d3d3d4;
+
+    @include breakpoint('lg') {
+      padding: 0 0.75rem;
+      border-right: 0;
+    }
+
+    // @include breakpoint('md') {
+    //   border-right: 0;
+    // }
+
+    @include onRTL {
+      border-right: 0;
+      border-left: 1px solid #d3d3d4;
+
+      @include breakpoint('lg') {
+        border-left: 0;
+      }
+    }
+
+    .header {
+      font-size: 0.875rem;
+      color: $gray2Color;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .title {
+      font-size: 0.875rem;
+      color: $gray3Color;
+      font-size: 0.875rem;
+    }
+  }
+}
+
+.containerActive {
+  flex: 1;
+  position: relative;
+  background-color: transparent;
+  text-align: left;
+  border: 2px solid $primaryColor;
+  box-shadow: 0px 0px 10px rgba(0, 122, 255, 0.2);
+  border-radius: 6px;
+  padding: 1.5rem 0;
+  left: -1px;
+
+  @include breakpoint('lg') {
+    padding: 1.5rem 0.75rem;
+    width: 100%;
+    left: initial;
+  }
+
+  // @include breakpoint('md') {
+  //   width: 100%;
+  //   left: initial;
+  // }
+
+  @include onRTL {
+    left: initial;
+    text-align: right;
+    right: -1px;
+
+    @include breakpoint('lg') {
+      right: initial;
+    }
+  }
+
+  .border {
+    padding: 0 1.5rem;
+
+    @include breakpoint('lg') {
+      padding: 0 0.75rem;
+    }
+  }
+
+  .header {
+    font-size: 0.875rem;
+    color: $primaryColor;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .title {
+    font-size: 0.875rem;
+    color: $gray3Color;
+    font-size: 0.875rem;
+  }
+}
+
+.dropdown {
+  min-width: 20.8rem;
+  border: 1px solid #d9d9d9;
+  background-color: white;
+  padding-top: 1.063rem;
+  padding-right: 1.688rem;
+  padding-left: 1.375rem;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+
+  @include breakpoint('lg') {
+    min-width: initial;
+    width: calc(100vw - 2rem);
+  }
+}

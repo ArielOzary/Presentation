@@ -1,0 +1,113 @@
+@import '@assets/styles/mixins';
+@import '@assets/styles/palette';
+
+.wrapper {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.81rem;
+
+  &.notYou {
+    flex-direction: row-reverse;
+
+    .message {
+      align-items: flex-start;
+
+      .text {
+        color: #686e7e;
+        background: $white;
+        border: 1px solid #d5d9e2;
+      }
+
+      .files .file {
+        color: #686e7e;
+        background: $white;
+        border: 1px solid #d5d9e2;
+      }
+
+      .time {
+        flex-direction: row;
+
+        .unread {
+          background: $primaryColor;
+        }
+      }
+    }
+  }
+
+  &.admin {
+    .message {
+      .text {
+        background: #fff8f0;
+        border: 1px solid #ffe5c4;
+        color: #686e7e;
+      }
+
+      .files .file {
+        background: #fff8f0;
+        border: 1px solid #ffe5c4;
+        color: #686e7e;
+      }
+    }
+  }
+
+  .avatar {
+    background: #e0e0e0;
+    width: 40px;
+    min-width: 40px;
+  }
+
+  .message {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    .text {
+      @include textStyle(400, 1rem, 1.44rem);
+
+      padding: 0.687rem 0.81rem;
+      color: #fff;
+      background: #6c5dd3;
+      border-radius: 0.5rem;
+      border: 0.75px solid #ebeef4;
+    }
+
+    .files {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+      align-items: flex-start;
+
+      .file {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        padding: 0.5rem 0.8rem;
+        border-radius: 4px;
+        border: 1px solid $primaryColor;
+        background: rgba(108, 93, 211, 0.1);
+        color: $primaryColor;
+        @include textStyle(600, 0.8rem, 1.44rem);
+        cursor: pointer;
+      }
+    }
+
+    .time {
+      @include textStyle(400, 0.625rem, 0.75rem);
+      display: flex;
+      gap: 0.4rem;
+      align-items: center;
+      flex-direction: row-reverse;
+      margin-top: 0.375rem;
+      text-align: end;
+      color: $gray4Color;
+
+      .unread {
+        display: block;
+        width: 4px;
+        height: 4px;
+        border-radius: 4px;
+        background: #bdbdbd;
+      }
+    }
+  }
+}

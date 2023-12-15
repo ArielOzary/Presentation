@@ -1,0 +1,27 @@
+{
+  "commentPlaceholder": "Add any comments for sellers",
+  "customQuote": "Custom Quote",
+  "destinationCharges": "Destination Charges",
+  "estimatedDays": "Est. {{days}} Days",
+  "estimatedPrice": "Estimated Price",
+  "exchangeRate": "Summary exchange rate",
+  "expirationDate": "Expiration Date",
+  "expiresBy": "Expires by",
+  "freightCharges": "Freight forwarder Charges",
+  "heroText": {
+    "findNoResults": "Unfortunately, we could not find any results at this time, but we would love to get you the right results from our sellers.",
+    "selectSellers": "Please select the sellers you'd like to ask a custom quote from."
+  },
+  "noResults": "No results found. Please refine your search parameters or request a custom quote",
+  "originCharges": "Origin Charges",
+  "remarks": "Remarks",
+  "requestCustomQuotes": "Request Custom Quotes",
+  "requests": "Requests",
+  "results": "Results",
+  "select": "Select",
+  "selectSellers": "Select one or more sellers",
+  "sellers": "Sellers",
+  "subtotal": "Subtotal",
+  "successfullyCreatedCustomQuote": "Your quote successfully created",
+  "total": "Total"
+}

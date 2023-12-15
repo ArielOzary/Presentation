@@ -1,0 +1,208 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 1.69rem 1.56rem;
+  border: 1px solid #d9d9d9;
+  border-radius: 0.375rem;
+  background-color: #fff;
+
+  &.disabled {
+    cursor: initial;
+  }
+
+  @include breakpoint('lg') {
+    padding: 1.3rem;
+  }
+
+  .infoBlock {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+    text-align: start;
+
+    .info {
+      display: flex;
+      width: 30%;
+      flex-direction: column;
+      gap: 7px;
+
+      @include breakpoint('md') {
+        width: 100%;
+      }
+
+      .freight {
+        display: flex;
+        @include textStyle(700, 1.1rem, 1.31rem);
+        text-transform: uppercase;
+        color: $gray2Color;
+
+        @include breakpoint('lg') {
+          @include textStyle(700, 0.9rem, 1.3rem);
+        }
+
+        .marker {
+          display: block;
+          min-width: 1rem;
+          height: 1rem;
+          margin-right: 0.5rem;
+          border-radius: 50%;
+          background-color: #ff4d4f;
+
+          @include onRTL {
+            margin-right: 0;
+            margin-left: 0.5rem;
+          }
+        }
+      }
+      .provider {
+        @include textStyle(300, 0.9rem, 1rem);
+        text-transform: uppercase;
+        color: $gray4Color;
+
+        @include breakpoint('lg') {
+          @include textStyle(_, 0.7rem, 1.8rem);
+        }
+      }
+
+      .status {
+        @include textStyle(700, 0.875rem, 1.375rem);
+
+        letter-spacing: -0.25px;
+        padding: 0 0.75rem;
+        margin: 4px 0;
+        text-align: center;
+        width: fit-content;
+        white-space: normal;
+        text-transform: capitalize;
+      }
+
+      .client {
+        @include textStyle(300, 0.9rem, 1rem);
+        text-transform: uppercase;
+        color: $gray3Color;
+
+        @include breakpoint('lg') {
+          @include textStyle(300, 0.7rem, 1.8rem);
+        }
+      }
+    }
+
+    .card {
+      display: flex;
+      align-items: center;
+      flex: 1;
+      gap: 1rem;
+
+      @include breakpoint('md') {
+        width: 100%;
+        align-items: normal;
+      }
+
+      @include breakpoint('sm') {
+        flex-direction: column;
+
+        .destination {
+          text-align: end;
+
+          .date {
+            justify-content: flex-end;
+          }
+        }
+      }
+
+      .origin {
+        text-align: end;
+
+        @include breakpoint('md') {
+          text-align: initial;
+        }
+      }
+
+      .location {
+        @include textStyle(700, 1.5rem, 1.8rem);
+        white-space: initial;
+        text-transform: uppercase;
+        color: $gray2Color;
+        word-break: break-word;
+        white-space: break-spaces;
+
+        @include breakpoint('xxl') {
+          @include textStyle(700, 1.25rem, 1.31rem);
+        }
+
+        @include breakpoint('lg') {
+          @include textStyle(700, 1.1rem, 1.31rem);
+        }
+      }
+
+      .date {
+        @include textStyle(_, 0.9rem, 1.375rem);
+        text-transform: capitalize;
+        color: $gray3Color;
+
+        p {
+          margin-bottom: 0;
+        }
+
+        @include breakpoint('sm') {
+          display: flex;
+        }
+      }
+
+      .progressBlock {
+        flex: 1;
+        width: calc(50% - 5rem);
+        overflow: hidden;
+
+        @include breakpoint('md') {
+          width: 100%;
+        }
+      }
+
+      .progress {
+        width: 8rem;
+
+        @include breakpoint('sm') {
+          width: 100%;
+        }
+      }
+    }
+
+    @include breakpoint('md') {
+      flex-direction: column;
+    }
+  }
+
+  .dropDown {
+    position: absolute;
+    top: 1rem;
+    right: 10px;
+    border: none;
+    background: none;
+
+    @include onRTL {
+      right: initial;
+      left: 10px;
+    }
+
+    .popoverWrapper {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: -0.625rem;
+
+      .icon {
+        display: flex;
+        font-size: 1.625rem;
+        color: #d9d9d9;
+      }
+    }
+  }
+}

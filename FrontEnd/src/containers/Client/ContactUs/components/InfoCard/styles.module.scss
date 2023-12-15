@@ -1,0 +1,36 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.313rem;
+
+  .image {
+    width: 2rem;
+    height: 2rem;
+    background-color: $primaryColor;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 13.813rem;
+
+    .title {
+      color: $gray3Color;
+      font-size: 1rem;
+      font-weight: 400;
+      padding-bottom: 9px;
+    }
+    .subtitle {
+      color: $gray2Color;
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+  }
+}

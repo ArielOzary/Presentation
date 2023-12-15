@@ -1,0 +1,38 @@
+@import '@assets/styles/palette';
+
+.container {
+  padding-top: 1.25rem;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.461rem;
+    align-items: center;
+    .headerTitle {
+      font-size: 1.625rem;
+      color: $gray3Color;
+      font-weight: 700;
+    }
+
+    .boxButton {
+      display: flex;
+      gap: 0.5rem;
+      .buttonOpen {
+        color: $primaryColor;
+        padding: 0;
+      }
+      .buttonEdit {
+        border: 0;
+        background-color: rgba(0, 0, 0, 0);
+        cursor: pointer;
+      }
+    }
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+}

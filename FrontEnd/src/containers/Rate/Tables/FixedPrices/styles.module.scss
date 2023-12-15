@@ -1,0 +1,36 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.boxCBM {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.688rem;
+}
+
+.priceRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.textarea {
+  width: 50%;
+  max-height: 200px;
+
+  @include breakpoint('xl') {
+    width: 100%;
+  }
+}
+
+.textareaText {
+  color: $gray3Color;
+  margin-top: 1.5rem;
+}
+
+.buttonDelete {
+  padding: 0;
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+{
+  "accountAndPersonalDataDeleted": "Your account and all personal data have been deleted",
+  "addFreightForwarder": "Add Freight Forwarder",
+  "basicInfoTab": "Basic Info",
+  "basicInfoUpdated": "Basic information updated successfully",
+  "companyLocationTab": "Company Location",
+  "confirmToDeleteProfile": "Are you sure to delete your Profile?",
+  "contactInfoTab": "Contact Info",
+  "contactsUpdated": "Contacts updated successfully",
+  "deleteProfile": "Delete the Profile",
+  "editProfileWarning": "Changing email will require you to use new email for any further sign in. Please notice that old email will no longer be valid.",
+  "invitationSentSuccessfully": "Invitation with instructions sent successfully",
+  "inviteForwarder": "Invite a freight forwarder",
+  "locationUpdated": "Location updated successfully"
+}

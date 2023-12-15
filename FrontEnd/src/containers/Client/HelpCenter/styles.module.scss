@@ -1,0 +1,30 @@
+@import '@assets/styles/mixins';
+@import '@assets/styles/palette';
+
+.container {
+  display: flex;
+
+  @include breakpoint('md') {
+    flex-direction: column;
+  }
+
+  .articleContainer {
+    padding: 2.938rem 0 0 2.438rem;
+
+    @include onRTL {
+      padding: 2.938rem 2.438rem 0 0;
+    }
+
+    @include breakpoint('md') {
+      width: 100%;
+      padding: 1rem;
+    }
+
+    .title {
+      font-size: 2rem;
+      font-weight: 400;
+      color: $gray3Color;
+      padding-bottom: 1.875rem;
+    }
+  }
+}

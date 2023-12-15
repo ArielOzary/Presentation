@@ -1,0 +1,85 @@
+{
+  "destination": {
+    "label": "Where are you shipping to?",
+    "title": "Destination"
+  },
+  "goods": {
+    "dangerous": "Dangerous",
+    "descrOfItems": "Description of Items",
+    "enterNumber": "Enter UN Number",
+    "errors": {
+      "goodsValueError": "Goods Value is missing",
+      "limited": "Limited to 50 symbols",
+      "shippingDateError": "Missing Shipping Date",
+      "shippingItemsError": "The description of items is missing",
+      "unNumberError": "Need to enter the UN number of the goods"
+    },
+    "label": "What are you shipping?",
+    "shippingDate": "Shipping Date",
+    "title": "Goods",
+    "unNumber": "UN Number",
+    "value": "Value"
+  },
+  "hero": {
+    "text": "Compare, book, and manage your freight across the world's top logistics providers, all on one platform.",
+    "title": "All your freight Managed in one place!"
+  },
+  "load": {
+    "addBtn": "Add Another Load",
+    "fclForm": {
+      "alert": "Containers can be shipped to or from a business address only if there is a loading dock",
+      "containers": "Containers"
+    },
+    "fclTitle": "Size of FCL",
+    "label": "How is the shipment packaged?",
+    "lclForm": {
+      "alert": "Calculating by total shipment is less accurate and therefore more likely to incur an additional charge for inaccurate or oversized dimensions.",
+      "boxes": "Boxes/Crates",
+      "dimensions": "Dimensions",
+      "error": {
+        "fillDimensions": "Fill the dimensions of your shipment",
+        "fillTotalVolume": "Fill the total volume",
+        "fillTotalWeight": "Fill the total weight",
+        "fillUnits": "Fill the # of units",
+        "fillWeight": "Fill the weight of your shipment",
+        "minValue": "Min value is 1"
+      },
+      "ofUnits": "of units",
+      "packageLabel": "Package type",
+      "pallets": "Pallets",
+      "paramsPerUnit": "LxWxH per unit",
+      "perUnit": "Per unit",
+      "volume": "Volume"
+    },
+    "lclTitle": "Size of LCL",
+    "title": "Load",
+    "totalShipment": "Calculate by total shipment",
+    "unitType": "Calculate by unit type"
+  },
+  "origin": {
+    "city": "City",
+    "dropdownTitle": "Port",
+    "knownSupplier": "Is your supplier a known shipper?",
+    "label": "Where are you shipping from?",
+    "title": "Origin",
+    "zipCode": "Zip Code"
+  },
+  "recentSearches": "Recent Searches",
+  "refreshShippingDateInfo": "Previous shipping date is already passed. Please refresh it in Goods section",
+  "shippingType": {
+    "customs": "Customs",
+    "dropdownTitle": "Tell Us About Your Shipment",
+    "error": "Select one of the following to continue",
+    "incoterms": "Incoterms",
+    "incotermsTooltip": {
+      "CIF": "CIF - Cost Insurance and Freight (insert named port of destination)",
+      "DDP": "DDP - Delivered Duty Paid (Insert place of destination)",
+      "EXW": "EXW - Ex Works (insert place of delivery)",
+      "FOB": "FOB - Free on Board (insert named port of loading)"
+    },
+    "insurance": "Insurance",
+    "label": "Tell us about your shipment",
+    "shipment": "Shipment",
+    "title": "Shipping Type"
+  }
+}

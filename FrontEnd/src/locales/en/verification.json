@@ -1,0 +1,12 @@
+{
+  "help": "If you have any questions or concerns regarding your account verification or the rejection of your verification request, please contact us at",
+  "mainPage": "Main page",
+  "openDashboard": "Open dashboard",
+  "pending": "Verification is pending",
+  "pendingText": "Your account is currently in a pending status until it is successfully verified. You can track the status of your account by visiting the verification page.",
+  "reSubmit": "Re-submit",
+  "rejected": "Verification is rejected",
+  "rejectedText": "We regret to inform you that your recent account verification request has been rejected by our administrative team. We understand that this may be disappointing, but please know that we take the security of our users very seriously and have strict verification procedures in place to protect your personal information.",
+  "verified": "Verification was successful",
+  "verifiedText": "We are pleased to inform you that your account has been successfully verified! Thank you for taking the time to complete the verification process and for choosing our service."
+}

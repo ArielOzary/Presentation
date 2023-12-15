@@ -1,0 +1,12 @@
+@import '@assets/styles/mixins';
+@import '@assets/styles/palette';
+
+.title {
+  @include textStyle(400, 2rem, 3.125rem);
+  margin-bottom: 1.75rem;
+  color: $gray3Color;
+
+  @include breakpoint('md') {
+    @include textStyle(400, 1.5rem, 1.75rem);
+  }
+}

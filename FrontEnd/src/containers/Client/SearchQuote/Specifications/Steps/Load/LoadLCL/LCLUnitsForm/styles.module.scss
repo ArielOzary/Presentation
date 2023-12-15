@@ -1,0 +1,77 @@
+@import '@assets/styles/palette';
+@import '@assets/styles/mixins';
+
+.loadList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+
+  .label {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+
+    @include breakpoint('md') {
+      width: 100%;
+      display: flex;
+    }
+
+    > span:first-of-type {
+      white-space: nowrap;
+    }
+
+    .infoHeader {
+      @include textStyle(400, 0.875rem, 1rem);
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      width: 18.75rem;
+      color: $gray4Color;
+
+      @include breakpoint('md') {
+        @include textStyle(400, 0.75rem, 1rem);
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+      }
+
+      .amount {
+        display: flex;
+        color: $gray2Color;
+      }
+
+      span {
+        white-space: nowrap;
+      }
+    }
+
+    .icon {
+      font-size: 1.25rem;
+      color: tomato;
+      margin-left: auto;
+    }
+  }
+}
+
+.panel {
+  > div:first-child {
+    background-color: $white;
+    border-radius: 5px !important;
+  }
+  > div:last-child {
+    border-top: none;
+  }
+}
+
+.btnAppend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.375rem;
+  width: 9.875rem;
+  padding: 0.6875rem;
+}
+
+.dimensionsError {
+  color: tomato;
+}

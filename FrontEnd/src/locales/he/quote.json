@@ -1,0 +1,27 @@
+{
+  "commentPlaceholder": "הוסף הערות למוכרים",
+  "customQuote": "הצעת מחיר מותאמת אישית",
+  "destinationCharges": "עלויות במדינת היעד",
+  "estimatedDays": "הערכה {{days}} ימים",
+  "estimatedPrice": "מחיר משוער\n",
+  "exchangeRate": "סיכום שער חליפין\n",
+  "expirationDate": "תאריך תוקף",
+  "expiresBy": "בתוקף עד",
+  "freightCharges": "עלויות חברת שילוח",
+  "heroText": {
+    "findNoResults": "למרבה הצער, לא הצלחנו למצוא תוצאות בשלב זה, אך נשמח לקבל עבורך את התוצאות הנכונות מהמשלחים שלנו.",
+    "selectSellers": "בחר את המשלחים מהם תרצה לבקש הצעת מחיר מותאמת אישית."
+  },
+  "noResults": "לא נמצאו תוצאות. אנא צמצמו את פרמטרי החיפוש שלך או בקש הצעת מחיר מותאמת אישית\n",
+  "originCharges": "עלויות במדינת המוצא",
+  "remarks": "הערות",
+  "requestCustomQuotes": "בקש הצעות מחיר מותאמות אישית",
+  "requests": "בקשות",
+  "results": "תוצאות",
+  "select": "בחירה",
+  "selectSellers": "בחר משלח אחד או יותר",
+  "sellers": "משלחים",
+  "subtotal": "סה\"כ חלקי",
+  "successfullyCreatedCustomQuote": "הצעת המחיר שלך נוצרה בהצלחה",
+  "total": "סה\"כ"
+}
